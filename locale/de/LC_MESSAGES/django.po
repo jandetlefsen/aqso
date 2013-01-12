@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-12 22:50+0000\n"
+"POT-Creation-Date: 2013-01-12 23:01+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -5188,7 +5188,7 @@ msgstr "in den letzten 24 Stunden registriert"
 #: forum/skins/default/templates_old/osqaadmin/dashboard.html:36
 #: forum/skins/default/templates_old/osqaadmin/index.html:37
 msgid "Site status"
-msgstr ""
+msgstr "Seiten Status"
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:40
 #: forum/skins/default/templates/osqaadmin/index.html:42
@@ -5198,6 +5198,8 @@ msgid ""
 "Your site is running in bootstrap mode, click the button below to revert to "
 "defaults."
 msgstr ""
+"Deine Seite läuft im Bootstrap Modus, klicke den Button um in den Standard "
+"Modus zurück zu wechseln."
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:43
 #: forum/skins/default/templates/osqaadmin/index.html:45
@@ -5207,6 +5209,8 @@ msgid ""
 "Your site is running in standard mode, click the button below to run in "
 "bootstrap mode."
 msgstr ""
+"Deine Seite läuft derzeit im Standard Modus, klicke hier um in den Bootstrap "
+"Modus zu wechseln."
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:45
 #: forum/skins/default/templates/osqaadmin/index.html:47
@@ -5216,6 +5220,8 @@ msgid ""
 "Your site is running with some customized settings, click the buttons below "
 "to run with defaults or in bootstrap mode"
 msgstr ""
+"Deine Seite läuft mit benutzerdefinierten Einstellungen, Klicke den Button "
+"um in den Standard oder Bootstrap Modus zu wechseln"
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:49
 #: forum/skins/default/templates/osqaadmin/index.html:51
@@ -5236,7 +5242,7 @@ msgstr ""
 #: forum/skins/default/templates_old/osqaadmin/dashboard.html:52
 #: forum/skins/default/templates_old/osqaadmin/index.html:54
 msgid "Are you sure you want to run bootstrap mode?"
-msgstr ""
+msgstr "Bist Du sicher, dass Du in den Bootstrap Modus wechseln möchtest?"
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:52
 #: forum/skins/default/templates/osqaadmin/index.html:54
@@ -5661,12 +5667,12 @@ msgstr "beliebig"
 #: forum/skins/default/templates/osqaadmin/nodeman.html:350
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:350
 msgid "Match any selected"
-msgstr "Beliebige Auswahl entsprechen"
+msgstr "Match any selected"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:351
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:351
 msgid "Match all selected"
-msgstr "Komplette Auswahl entsprechen"
+msgstr "Match all selected"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:355
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:355
@@ -5694,6 +5700,7 @@ msgstr "Nach Tag(s)"
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:373
 msgid "No tags selected, use the box bellow to add tags to the filter."
 msgstr ""
+"Keine Tags ausgewählt, benutze die Textbox um Tags zum Filter hinzuzufügen."
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:383
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:383
@@ -6863,7 +6870,7 @@ msgstr ""
 
 #: forum/views/admin.py:286
 msgid "Bootstrap mode enabled"
-msgstr ""
+msgstr "Bootstrap Modus aktiviert"
 
 #: forum/views/admin.py:300
 msgid "All values reverted to defaults"
