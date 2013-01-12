@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-12 23:49+0000\n"
+"POT-Creation-Date: 2013-01-12 23:53+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1926,7 +1926,7 @@ msgstr ""
 
 #: forum/settings/moderation.py:8
 msgid "Moderation settings"
-msgstr "Moderations Einstellugen"
+msgstr "Moderations Einstellungen"
 
 #: forum/settings/moderation.py:8
 msgid "Define the moderation workflow of your site"
@@ -2123,21 +2123,23 @@ msgstr ""
 
 #: forum/settings/sitemaps.py:8
 msgid "Questions Sitemap Limit"
-msgstr ""
+msgstr "Sitemap Limit für Fragen"
 
 #: forum/settings/sitemaps.py:9
 msgid "The questions limit per page for the Questions Sitemap."
-msgstr ""
+msgstr "Das Limit pro Seite für die Fragen Sitemap."
 
 #: forum/settings/sitemaps.py:12
 msgid "Questions Sitemap Change Fraquence"
-msgstr ""
+msgstr "Update Frequenz der Sitemap für Fragen"
 
 #: forum/settings/sitemaps.py:13
 msgid ""
 "Used in the Questions Sitemap <changefreq> tag and specifies the content "
 "change frequency."
 msgstr ""
+"Benutzt in der Fragen SItemap <changefreq> Tag und legt die Update "
+"Häufigkeit fest."
 
 #: forum/settings/static.py:17
 msgid "Use custom CSS"
