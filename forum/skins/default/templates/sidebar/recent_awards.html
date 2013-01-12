@@ -1,0 +1,13 @@
+{% load i18n %}
+
+<h4>{% trans "Recent awards" %}</h4>
+    <ul class="unstyled">
+        {% for award in awards %}
+        <li>
+            {% if award.badge.type == 3 %}<i class="medal-gold"></i>{% endif %}{% if award.badge.type == 2 %}<i class="medal-silver"></i>{% endif %}{% if award.badge.type == 1 %}<i class="medal-bronze"></i>{% endif %}<a href="{% url badges %}{{award.badge.id}}/{{award.badge.name|slugify}}" title="{{ award.badge.description }}" class="medal btn disabled">
+            {{ award.badge.name }}</a>
+            <a href="{{ award.user.get_profile_url }}">{{ award.user.decorated_name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+<a href="{% url badges %}">{% trans "All Awards" %} </a>

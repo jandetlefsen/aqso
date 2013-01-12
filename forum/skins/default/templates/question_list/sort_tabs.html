@@ -1,0 +1,16 @@
+{% load i18n %}
+
+<ul class="nav nav-pills pull-right">
+	<li{% ifequal current "active" %} class="active"{% endifequal %}>
+		<a id="active" href="{{ base_url }}active" title="{% trans "most recently updated questions" %}">{% trans "active" %}</a>
+	</li>
+	<li{% ifequal current "latest" %} class="active"{% endifequal %}>
+		<a id="latest" href="{{ base_url }}latest" title="{% trans "most recently asked questions" %}">{% trans "newest" %}</a>
+	</li>
+	<li{% ifequal current "hottest" %} class="active"{% endifequal %}>
+		<a id="hottest" href="{{ base_url }}hottest" title="{% trans "hottest questions" %}">{% trans "hottest" %}</a>
+	</li>
+	<li{% ifequal current "mostvoted" %} class="active"{% endifequal %}>
+		<a id="mostvoted" href="{{ base_url }}mostvoted" title="{% trans "most voted questions" %}">{% trans "most voted" %}</a>
+	</li>
+</ul>

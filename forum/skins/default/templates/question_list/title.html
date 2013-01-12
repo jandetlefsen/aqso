@@ -1,0 +1,25 @@
+{% load i18n %}
+
+<div class="span5">
+    {% if searchtag %}
+        {% trans "Found by tags" %}
+    {% else %}
+        {% if searchtitle %}
+            {% if settings.USE_SPHINX_SEARCH %}
+                <h3>{% trans "Search results" %}</h3>
+            {% else %}
+                <h3>{% trans "Found by title" %}</h3>
+            {% endif %}
+        {% else %}
+            {% if is_unanswered %}
+                <h3>{% trans "Unanswered questions" %}</h3>
+            {% else %}
+                {% if page_title %}
+                    <h3>{% trans page_title %}</h3>
+                {% else %}
+                    <h3>{% trans "All Questions" %}</h3>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+    {% endif %}
+</div>

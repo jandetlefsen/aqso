@@ -1,0 +1,6 @@
+{% load i18n smart_if ui_registry %}
+
+<button class="btn btn-mini dropdown-toggle" data-toggle="dropdown">{% trans "User tools" %} <span class="caret"></span></button>
+  <ul class="dropdown-menu pull-right">
+    {% loadregistry user_menu %}{% endloadregistry %}
+  </ul>

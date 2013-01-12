@@ -1,0 +1,15 @@
+<!-- question_edit_tips.html -->
+{% load markup %}
+{% load i18n general_sidebar_tags %}
+
+<h4>{% trans "Title Tips" %}</h4>
+
+{{ settings.QUESTION_TITLE_TIPS|markdown:"settingsparser" }}
+<a href="{% url faq %}" target="_blank" title="{% trans "see frequently asked questions" %}">{% trans "FAQ" %} &raquo;</a>
+
+{% markdown_help %}
+
+<h4>{% trans "What Are Tags" %}</h4>
+{{ settings.QUESTION_TAG_TIPS|markdown:"settingsparser" }}
+
+<!-- end question_edit_tips.html  -->

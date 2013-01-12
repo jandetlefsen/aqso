@@ -1,0 +1,89 @@
+<!-- template header.html -->
+{% load extra_tags ui_registry i18n extra_filters markup %}
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="/">Freeduino</a>
+        <div class="nav-collapse">
+          <ul class="nav pull-right">
+
+            <li>
+              <a href="/osqa/admin">Administration</a>
+            </li>
+
+            <li>
+              <a href="/osqa/users/1/admin">Admin</a>
+            </li>
+
+            <li>
+              <a href="/osqa/abmelden">Abmelden</a>
+            </li>
+
+            <li>
+              <a href="/osqa/about">About</a>
+            </li>
+
+            <li>
+              <a href="/osqa/faq">FAQ</a>
+            </li>
+
+            <li class="divider-vertical"></li> 
+             
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+
+  <ul id="tab" class="nav nav-tabs span9">
+      {% loopregistry page_top_tabs %}{% spaceless %}
+          <li {% ifequal tab tab_name %} class="active"{% endifequal %}><a id="nav_{{ tab_name }}" href="{{ tab_url }}" >{{ tab_title|capfirst }}</a></li>
+      {% endspaceless %}{% endloopregistry %}
+  </ul>
+  <a class="pull-right span2 btn btn-success" href="{% url ask %}" >{% trans "Ask A Question" %}</a>
+  
+  <div class="row">
+    <div class="span12">
+      <form action="{% url search %}" method="get" class="well" >
+          {% csrf_token %}
+          <div class="row form-inline">
+              <div class="span8 offset2">
+                  <input type="text" class="span6" value="{{ keywords }}" name="q" id="keywords" />
+                  <input type="submit" name="Submit" value="{% trans "search" %}" class="btn btn-primary" />
+              </div>
+          </div>
+          <br>
+          <div class="row form-inline">
+            <div class="span5 offset3">
+              <label class="radio inline" for="type-question">
+                <input id="type-question" type="radio" value="question" name="t" checked="checked">
+                {% trans "questions" %}
+              </label>
+              <label class="radio inline" for="type-tag">
+                <input id="type-tag" type="radio" value="tag" name="t">
+                {% trans "tags" %}
+              </label>
+              <label class="radio inline" for="type-user">
+                <input id="type-user" type="radio" value="user" name="t">
+                {% trans "users" %}
+              </label>
+            </div>
+          </div>
+      </form>	
+  	</div>
+  </div>
+
+	{% if settings.USE_ANNOUNCEMENT_BAR|or_preview:request %}
+  <div id="announcement">
+      {{ settings.ANNOUNCEMENT_BAR|or_preview:request|static_content:settings.ANNOUNCEMENT_BAR_RENDER_MODE }}
+  </div>
+  {% endif %}
+
+<!-- end template header.html -->

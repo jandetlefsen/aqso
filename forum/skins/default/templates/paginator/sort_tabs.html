@@ -1,0 +1,15 @@
+{% load i18n %}
+{% spaceless %}
+<ul class="nav nav-pills pull-right">
+    {% for name, label, url, descr in sorts %}
+    	<li{% ifequal current name %} class="active"{% endifequal %}>
+        	<a href="{{ url }}" title="{{ descr }}">{{ label }}</a>
+        </li>
+    {% endfor %}
+    {% comment %}
+    <span class="sticky-sort-tabs">
+        <input title="{% trans "Check to make the sort order sticky" %}" type="checkbox" checked="{% if sticky %}checked{% endif %}" />
+    </span>
+    {% endcomment %}
+</ul>
+{% endspaceless %}

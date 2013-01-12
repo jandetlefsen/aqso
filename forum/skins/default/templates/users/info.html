@@ -1,0 +1,91 @@
+<!-- user_info.html -->
+{% load extra_tags %}
+{% load extra_filters %}
+{% load humanize %}
+{% load smart_if %}
+{% load i18n %}
+{% load markup %}
+{% load user_tags %}
+
+<h3>{{view_user.decorated_name}}</h3>
+<div class="row">
+    <div class="span2">
+        <span class="thumbnail">{% gravatar view_user 128 %}</span><br>
+        {% if not view_user.is_suspended %}
+            <div>{{view_user.reputation|intcomma}}</div>
+            <p><strong>{% trans "reputation" %}</strong></p>
+        {% else %}
+            <div>{% trans "Suspended" %}</div>
+            <p>{{ view_user.suspension.extra.publicmsg }}</p>
+        {% endif %}
+    </div>
+    <div class="span4">
+        <div class="row">
+                <span class="span2"><h4>{% trans "Registered user" %}</h4></span>
+                <span class="span2">{% if can_view_private %}{% user_menu request.user view_user %}{% endif %}</span>
+        </div>
+        {% if view_user.real_name %}
+            <div class="row">
+                <span class="span2">{% trans "Real Name" %}</span>
+                <span class="span2"><strong>{{view_user.real_name}}</strong></span>
+            </div>
+            <div class="row">
+                <span class="span2">{% trans "Member For" %}</span>
+                <span class="span2"><strong>{% diff_date view_user.date_joined %}</strong></span>
+            </div>
+        {% endif %}
+        {% if view_user.last_seen %}
+            <div class="row">
+                <span class="span2">{% trans "Last Seen" %}</span>
+                <span class="span2"><strong title="{{ view_user.last_activity }}">{% diff_date view_user.last_activity %}</strong></span>
+            </div>
+        {% endif %}
+        {% if view_user.website %}
+            <div class="row">
+                <span class="span2">{% trans "User's Website" %}</span>
+                <span class="span2"><strong><a rel="nofollow" target="_blank" href="{{view_user.website}}">{{view_user.website}}</a><strong></span>
+            </div>
+        {% endif %}
+        {% if view_user.location %}
+            <div class="row">
+                <span class="span2">{% trans "Location" %}</span>
+                <span class="span2"><strong>{{view_user.location}}</strong></span>
+            </div>
+        {% endif %}
+        {% if view_user.date_of_birth%}
+            {% if view_user.date_of_birth.year != 1900%}
+                <div class="row">
+                    <span class="span2">{% trans "age" %}</span>
+                    <span class="span2"><strong>{% get_age view_user.date_of_birth %} {% trans "age unit" %}</strong></span>
+                </div>
+            {% endif %}
+        {% endif %}
+        {% if can_view_private %}
+            <div class="row">
+                <span class="span2">{% trans "Email" %}</span>
+                <span class="span2"><strong><a href="mailto:{{ view_user.email }}">{{ view_user.email }}</a></strong></span>
+            </div>
+            {% if not view_user.email_isvalid %}
+                <div class="row">
+                    <span class="span2">({% trans "not validated" %})</span>
+                    <span class="span2">
+                        {% ifequal request.user view_user %}<a href="{% url send_validation_email %}">{% trans "Send me a validation link." %}</a>{% endifequal %}
+                    </span>
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>
+
+<table class="user-info-table">
+    <tr>
+        <td width="380">
+            <div class="user-about">
+            {% if view_user.about %}
+                {{view_user.about|markdown}}
+            {% endif %}
+            </div>
+        </td>
+    </tr>
+</table>
+<!-- end user_info.html -->

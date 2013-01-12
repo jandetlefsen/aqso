@@ -1,0 +1,58 @@
+{% extends "base_content.html" %}
+<!-- template about.html -->
+{% load i18n %}
+{% load extra_tags %}
+{% load humanize %}
+{% block title %}{% spaceless %}{% trans "Feedback" %}{% endspaceless %}{% endblock %}
+{% block forejs %}
+{% endblock %}
+{% block content %}
+<h3>{% trans "Give us your feedback!" %}</h3>
+<div>
+    <form method="post" action="{% url feedback %}" class="well" accept-charset="utf-8">
+        {% csrf_token %}
+        {% if user.is_authenticated %}
+            <p>
+                {% blocktrans with user.username as user_name %}
+                <strong>Dear {{user_name}}</strong>, we look forward to hearing your feedback. 
+                Please type and send us your message below.
+                {% endblocktrans %}
+            <p>
+        {% else %}
+            <p>
+                {% blocktrans %}
+                <strong>Dear visitor</strong>, we look forward to hearing your feedback.
+                Please type and send us your message below.
+                {% endblocktrans %}
+            </p>
+            <div class="control-group">
+                <label>{{form.name.label}}</label>
+                {{form.name}}
+            </div>
+            <div class="control-group{% if form.errors.email %} error{% endif %}">
+                <label>{{form.email.label}}</label>
+                {{form.email}}
+                {% if form.errors.email %}<p class="help-block">(please enter a valid email)</p>{% endif %}
+            </div>
+        {% endif %}
+        <div class="control-group{% if form.errors.message %} error{% endif %}">
+        <label>{{form.message.label}}</label>
+            {{form.message}}
+            {% if form.errors.message %}<p class="help-block">{% trans "(this field is required)" %}</p>{% endif %}
+            {{form.next}}
+        </div>
+        <div class="row">
+            <div class="span4">
+                <input type="submit" class="submit btn btn-primary" value="{% trans "Send Feedback" %}"/>
+                <input type="submit" class="submit btn" name="cancel" value="{% trans "Cancel" %}"/>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
+<!-- end template about.html -->
+
+<div class="controls">
+              <input type="text" class="input-xlarge" id="input01">
+              <p class="help-block">In addition to freeform text, any HTML5 text-based input appears like so.</p>
+            </div>

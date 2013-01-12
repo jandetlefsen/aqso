@@ -1,0 +1,28 @@
+<!-- template pagesize.html -->
+{% spaceless %}
+{% load i18n %}
+{% if is_paginated %}
+<div class="btn-group">
+
+    <span class="text">yyy{% trans "posts per page" %}</span>
+    {% ifequal pagesize 10 %}
+        <a class="btn disabled" href="{{base_url}}pagesize=10">10</a>
+    {% else %}
+        <a class="btn" href="{{base_url}}pagesize=10">10</a>
+    {% endifequal %}
+    
+    {% ifequal pagesize 30 %}
+        <a class="btn disabled" href="{{base_url}}pagesize=30">30</a>
+    {% else %}
+        <a class="btn" href="{{base_url}}pagesize=30">30</a>
+    {% endifequal %}
+    
+    {% ifequal pagesize 50 %}
+        <a class="btn disabled" href="{{base_url}}pagesize=50">50</a>
+    {% else %}
+        <a class="btn" href="{{base_url}}pagesize=50">50</a>
+    {% endifequal %}
+</div> 
+{% endif %}
+{% endspaceless %}
+<!-- end template pagesize.html -->

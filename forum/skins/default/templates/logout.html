@@ -1,0 +1,24 @@
+{% extends "base_content.html" %}
+<!-- template logout.html -->
+{% load extra_tags %}
+{% load humanize %}
+{% load i18n %}
+{% block title %}{% spaceless %}{% trans "Logout" %}{% endspaceless %}{% endblock %}
+{% block forejs %}
+    <script type="text/javascript">
+    $().ready(function(){
+        $('#btLogout').bind('click', function(){ window.location.href='{% url user_signout %}?next={{ next }}'; });
+    });
+    </script>
+{% endblock %}
+{% block content %}
+<div  class="row">
+  <div class="span5">
+    <h3>{% trans "Logout" %}</h3>
+  </div>
+</div>
+<div>
+    <p>{% trans "As a registered user you can login with your OpenID, log out of the site or permanently remove your account." %}</p>
+    <input id="btLogout" type="button" class="submit btn" value="{% trans "Logout now" %}">
+</div>
+{% endblock %}

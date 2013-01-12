@@ -1,0 +1,146 @@
+[class^="medal-"], [class*=" medal-"] {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  vertical-align: text-top;
+  background-image: url("../images/medals.png");
+  background-repeat: no-repeat;
+}
+
+
+.medals .medal-gold{
+  background-position: 0px 0px;
+}
+
+.medals .medal-silver{
+  background-position: -24px 0px;
+}
+
+.medals .medal-bronze{
+  background-position: -48px 0px;
+}
+
+.medals .medal-greyed{
+  background-position: -74px 0px;
+}
+
+table.medallisting tbody tr {
+    height: 60px;
+}
+
+h2, h3, h4, label, .label, .nav, .footer, .btn{
+  text-transform:capitalize;
+}
+
+small {
+  font-size: 80%;
+}
+
+.center{
+  text-align: center;
+}
+
+.container .center strong{
+  font-size:18px;
+}
+
+.score{
+  font-weight:bold;
+}
+
+pre{
+  padding: 15px;
+  background-color: #272822;
+  color: white;
+}
+
+.post-score h3{
+  color:grey;
+}
+
+li {
+  line-height: 25px;
+}
+
+h4{
+  margin-top:15px;
+  margin-bottom:5px;
+}
+
+h3.itemtitle{
+  line-height: 16px;
+  font-size: 16px;
+  vertical-align:top;
+  margin-bottom:5px;
+}
+
+h3.itemtitle a{
+  text-decoration:none;
+}
+
+a.label-info{
+  margin-right:5px;
+}
+
+.span06 {
+  width: 40px;
+}
+
+.span65{
+  width: 500px;
+}
+
+.span06-button {
+  width: 40px;
+  margin-left: 0px;
+  padding: 7px;
+}
+
+ul.userlist li{
+  line-height: 20px;
+}
+
+.nomargin{
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+#mainbar-full .row {
+  margin-top:10px;
+}
+
+ul.errorlist{
+  color: #B94A48;
+  list-style: none;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+a.label{
+  line-height: 20px;
+}
+
+span.label{
+  line-height: 25px;
+}
+
+.icon-openid {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../images/openid-icon-12.png");
+  background-position: 0px 1px;
+  background-repeat: no-repeat;
+}
+
+p.error{
+  color: #B94A48;
+  font-weight: bold;
+}
+
+textarea#editor{
+  width: 870px;
+}

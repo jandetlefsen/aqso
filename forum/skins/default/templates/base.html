@@ -1,0 +1,31 @@
+{% extends "base_content.html" %}
+{% block page_center %}
+
+{% block full_width_banner %}{% endblock %}
+
+<div class="row">
+    {% block site_width_banner %}{% endblock %}
+
+    <div class="span9">
+        <div class="row">
+            <div class="span9">
+                {% block content%}
+                {% endblock%}
+            </div>
+        </div>
+        <div class="row">
+            <div class="span5">
+                {% block tail %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+
+    <div class="span3">
+        {% block sidebar%}
+        {% endblock%}
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{% load extra_tags %}
+{% load humanize %}
+{% load extra_tags %}
+
+<tr>
+    <td>
+        {{ describe }}
+    </td>
+    <td>
+        {% diff_date action.action_date  %}
+    </td>
+</tr>

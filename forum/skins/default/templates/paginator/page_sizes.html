@@ -1,0 +1,13 @@
+{% spaceless %}
+  {% load i18n %}
+  {% trans "Posts per Page" %}<br>
+  <div class="btn-group">
+    {% for size, url in sizes %}
+      {% ifequal size current %}
+        <a class="btn btn-mini disabled">{{ size }}</a>
+      {% else %}
+        <a class="btn btn-mini" href="{{ url }}">{{ size }}</a>
+      {% endifequal %}
+    {% endfor %}
+  </div>
+{% endspaceless %}

@@ -1,0 +1,224 @@
+20ea
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- base_content.html -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>New user signup - OSQA</title>
+        <meta name="description" content="Ask and answer questions." />
+        <meta name="keywords" content="OSQA,CNPROG,forum,community" />
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <link rel="shortcut icon" href="/m/default/media/images/favicon.ico" />
+        <link href="/osqa/m/default/media/style/style.css" rel="stylesheet" type="text/css" />
+        
+        <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" />
+        <!--[if IE 6]>
+        <style type="text/css">
+        img, div, a { behavior: url(/osqa/m/default/media/iepngfix/iepngfix.htc) }
+        </style>
+        <![endif]-->
+        
+
+        <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+        <script type="text/javascript">
+        /*<![CDATA[*/
+            google.load("jquery", "1.4.2");
+            google.load("jqueryui", "1", {autoload:true});
+
+            var i18nLang = 'en';
+            var appUrl = 'http://127.0.0.1:80/osqa'
+            var scriptUrl = '/osqa/'
+            var osqaSkin = 'default';
+
+            var messages = {
+                username: '',
+                confirm: "Are you sure?",
+                yes: "Yes",
+                no: "No",
+                message: "Message:",
+                cancel: "Cancel",
+                close: "Close",
+                ok: "Ok",
+                matching_tags_url: "/osqa/matching_tags/",
+                word: "word",
+                words: "words",
+                character: "character",
+                characters: "characters"
+            }
+        /*]]>*/
+        </script>
+        <script type="text/javascript" src="/osqa/m/default/media/js/osqa.main.js"></script>
+        
+        <style type="text/css">
+            body { margin-top:2.4em; }
+        </style>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var element = $('#validate_email_alert');
+                element.click(function(){notify.close(true);})
+                notify.show();
+            });
+        </script>
+        
+        
+        
+        <link rel="search" type="application/opensearchdescription+xml" href="/osqa/opensearch.xml" title="OSQA Search" />
+        
+    </head>
+    <body>
+        <div class="wrapper">
+        
+        <!-- template header.html -->
+
+
+	<div id="roof">
+	  
+		<div id="logo">
+			<a href="/osqa/">
+				<img src="/upfiles/logo.png" title="back to home page" alt="OSQA: Open Source Q&amp;A Forum logo"/>
+			</a>
+		</div>
+	  
+		<div id="top">
+		     <a href="/osqa/account/signin/" >login</a>  <a href="/osqa/about/" >about</a>  <a href="/osqa/faq/" >faq</a> 
+		</div>
+
+    <div id="nav">
+        <a id="nav_questions" href="/osqa/questions/" >questions</a><a id="nav_tags" href="/osqa/tags/" >tags</a><a id="nav_users" href="/osqa/users/" >users</a><a id="nav_badges" href="/osqa/badges/" >badges</a><a id="nav_unanswered" href="/osqa/questions/unanswered/" >unanswered</a>
+        <a id="nav_ask" href="/osqa/questions/ask/" class="special">ask a question</a>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+  
+	<div id="searchBar">
+    <form action="/osqa/search/" method="get">
+        <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='62d8d4a54238c7b1f4f6c256907021fa' /></div>
+        <div>
+            <input type="text" class="searchInput" value="" name="q" id="keywords" />
+            <input type="submit" name="Submit" value="search" class="searchBtn" />
+        </div>
+        <div class="options">
+            <input id="type-question" type="radio" value="question" name="t" 
+                checked="checked" /><label for="type-question">questions</label>
+            <input id="type-tag" type="radio" value="tag" name="t" /><label for="type-tag">tags</label>
+            <input id="type-user" type="radio" value="user" name="t" /><label for="type-user">users</label>
+        </div>
+    </form>	
+	</div>
+
+	
+
+<!-- end template header.html -->
+
+        
+        <div id="wrapper">
+            <div id="room">
+                <div id="CAFull">
+                    
+    <div id="main-bar" class="headNormal">
+		New user signup
+    </div>      
+	<div id="completetxt" >
+        <div class="message">
+            
+            
+            <p>
+                Please choose your screen name and confirm your email address. A valid email address is necessary to receive notifications about activity in the areas of this community you're most interested in, and will help you become an involved participant in this community.
+            </p>
+        </div>
+    	<p style="display:none">This account already exists, please use another.</p>
+	</div>
+
+	
+
+	<div class="login">
+        <form name="fregister" action="" method="POST"><div style='display:none;'><input type='hidden' id='csrfmiddlewaretoken' name='csrfmiddlewaretoken' value='62d8d4a54238c7b1f4f6c256907021fa' /></div>
+            <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='62d8d4a54238c7b1f4f6c256907021fa' /></div>
+            <input type="hidden" name="next" value="/" id="id_next" />
+            <div class="form-row-vertical margin-bottom">
+                <label for="id_username">Choose screen name</label>
+                
+                <input id="id_username" type="text" class="required login" name="username" maxlength="30" />
+            </div>
+            <div class="form-row-vertical margin-bottom">
+                <label for="id_email">Your email <i>(never shared)</i></label>
+                
+                <input id="id_email" type="text" class="required login" name="email" maxlength="200" />
+            </div>
+            
+                <div class="form-row-vertical margin-bottom">
+                    <label for="password1_id">Password</label>
+                    
+                    <input id="id_password1" type="password" class="required login" name="password1" />
+                </div>
+                <div class="form-row-vertical margin-bottom">
+                    <label for="password2_id">Password <i>(please retype)</i></label>
+                    
+                    <input id="id_password2" type="password" class="required login" name="password2" />
+                </div>
+            
+            
+            <div class="submit-row"><input type="submit" class="submit" name="bnewaccount" id="bnewaccount" value="Signup"/></div>
+		</form>
+	</div>
+    
+
+
+                </div>
+                <div id="tail" style="clear:both;">
+                    
+                    
+                </div>
+            </div>
+            <div class="spacer3"></div>
+        </div>
+        
+        
+            <div id="ground">
+                
+
+
+<div>
+    <div class="footerLinks" >
+         <a href="/osqa/about/" >about</a> <span class="link-separator"> |</span> <a href="/osqa/faq/" >faq</a> <span class="link-separator"> |</span> <a href="/osqa/privacy/" >privacy</a> <span class="link-separator"> |</span> <a href="/osqa/contact/?next=/osqa/account/local/register/" >contact</a> 
+    </div>
+  <p>
+     <a href="http://bitnami.org/stack/osqa" target="_blank" title="OSQA Development Build (SVN-1150)">
+        powered by BitNami OSQA
+     </a>
+  </p>
+</div>
+ <div id="licenseLogo">
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+            <img src="/osqa/m/default/media/images/by-sa-88x31.png" title="Creative Commons: Attribution - Share Alike" alt="cc-by-sa" width="88" height="31" />
+  </a>
+ </div>
+
+
+            </div>
+        
+        
+        
+        
+        </div>
+
+        <!-- Put all elements with fixed position here, IE6 fixed position fix: http://ryanfait.com/position-fixed-ie6/ -->
+        <div class="notify" style="display:none">
+            
+                
+                    
+                          <p class="darkred">First time here? Check out the <a href="/osqa/faq/">FAQ</a>!</p>
+                    
+                
+            
+            <a id="close-notify" onclick="notify.close(true)">&#215;</a>
+        </div>
+    </body>
+</html>
+<!-- end template base_content.html -->
+
+0
+

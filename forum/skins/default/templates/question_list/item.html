@@ -1,0 +1,39 @@
+{% load i18n humanize extra_filters extra_tags user_tags %}
+<div class="row">
+    <div class="span06 center">
+        <div class="btn btn-primary disabled span06-button">
+            <strong>{{question.score|intcomma}}</strong><br>
+            <small>{% ifequal question.score 1 %}{% trans "vote" %}{% else %}{% trans "votes" %}{% endifequal %}</small>
+        </div>
+    </div>
+    <div class="span06 center">
+        <div class="btn btn-info disabled span06-button">
+            <strong>{{question.answer_count|intcomma}}</strong><br>
+            <small>{% ifequal question.answer_count 1 %}{% trans "answer" %}{% else %}{% trans "answers" %}{% endifequal %}</small>
+        </div>
+    </div>
+    <div class="span06 center">
+        <div class="btn btn-success disabled span06-button">
+            <strong>{{question.view_count|decorated_int|safe}}</strong><br>
+            <small>{% ifequal question.view_count 1 %}{% trans "view" %}{% else %}{% trans "views" %}{% endifequal %}</small>
+        </div>
+    </div>
+
+    <div class="pull-right">
+        <div class="row">
+            <div class="span65">
+                <h3 class="itemtitle"><a title="{{ question.summary }}" href="{{ question.get_absolute_url }}">{{question.headline}}</a></h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span3">{% for tag in question.tagname_list %}{% if forloop.counter0 < 3 %}<a href="{% url tag_questions tag|urlencode %}" title="{% trans "see questions tagged" %} '{{ tag }}'" class="label label-info">{{ tag }}</a>{% endif %}{% endfor %}
+            </div>
+            <div class="pull-right">
+                <span title="{{question.last_activity_at}}" class="span2">{% diff_date question.last_activity_at %}</span>
+            {% if question.last_activity_by %}{% user_signature question.last_activity_by signature_type %}{% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<hr>

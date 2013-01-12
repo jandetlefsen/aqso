@@ -1,0 +1,18 @@
+{% load i18n %}
+{% spaceless %}
+    <div class="btn-group">
+        {% for control in controls %}
+            <a class="btn btn-mini" rel="nofollow" title="{{ control.title }}" href="{{ control.url }}">{{ control.text }}</a>
+        {% endfor %}
+        {% if menu|length %}
+            <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">{% trans "more" %} <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                {% for item in menu %}
+                    <li>
+                        <a rel="nofollow" href="{{ item.url }}" title="{{ item.title }}" >{{ item.text|capfirst }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+{% endspaceless %}

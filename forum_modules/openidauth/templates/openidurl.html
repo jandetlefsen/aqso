@@ -1,0 +1,22 @@
+{% load i18n %}
+{% load extra_tags %}
+
+<fieldset>
+    <table>
+    <tr>
+        <td><p id="provider_name_slot">{% trans 'Enter your OpenId Url' %}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="input-prepend">
+                <span class="add-on"><img src="{% media provider.icon %}"></span>
+                <input class="input-xxlarge" id="openid_identifier" type="text" name="openid_identifier">
+            </div>
+        </td>
+        <td>
+            <input type="submit" name="ssignin" value="{% trans 'Login' %}" class="btn" />
+        </td>
+    </tr>
+    </table>
+</fieldset>
+
