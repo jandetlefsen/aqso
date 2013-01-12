@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-12 23:32+0000\n"
+"POT-Creation-Date: 2013-01-12 23:49+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -570,7 +570,7 @@ msgstr ""
 #: forum/actions/node.py:50
 #, python-format
 msgid "%(user)s answered %(asker)s on %(question)s"
-msgstr ""
+msgstr "%(user)s beantwortete %(asker)s auf %(question)s"
 
 #: forum/actions/node.py:57
 msgid "commented"
@@ -818,7 +818,7 @@ msgstr "wurde"
 
 #: forum/actions/user.py:190
 msgid "was"
-msgstr ""
+msgstr "wurde"
 
 #: forum/actions/user.py:195
 msgid "suspended"
@@ -1372,7 +1372,7 @@ msgstr "Favicon Deiner Seite."
 
 #: forum/settings/basic.py:22
 msgid "Application title"
-msgstr ""
+msgstr "Titel der Anwendung"
 
 #: forum/settings/basic.py:23
 msgid "The title of your application that will show in the browsers title bar"
@@ -4677,7 +4677,9 @@ msgstr ""
 msgid ""
 "\n"
 "Would you like to copy the permanent link to your clipboard?\n"
-msgstr "nMöchtest Du den statischen Link in Deine Zwischenablage kopieren?\n"
+msgstr ""
+"\n"
+"Möchtest Du den statischen Link in Deine Zwischenablage kopieren?\n"
 
 #: forum/skins/default/templates/node/permanent_link.html:10
 #: forum/skins/default/templates_old/node/permanent_link.html:10
@@ -6868,7 +6870,7 @@ msgstr ""
 #: forum/views/admin.py:179
 #, python-format
 msgid "'%s' settings saved succesfully"
-msgstr ""
+msgstr "'%s' Einstellung erfolgreich gespeichert"
 
 #: forum/views/admin.py:286
 msgid "Bootstrap mode enabled"
@@ -8260,15 +8262,15 @@ msgstr "Export Einstellungen"
 
 #: forum_modules/exporter/settings.py:7
 msgid "Data export settings"
-msgstr ""
+msgstr "Daten Export Einstellungen"
 
 #: forum_modules/exporter/settings.py:10
 msgid "Backups storage"
-msgstr ""
+msgstr "Backup Speicher"
 
 #: forum_modules/exporter/settings.py:11
 msgid "A folder to keep your backups organized."
-msgstr ""
+msgstr "Verzeichnis wo Updates organisiert gespeichert werden"
 
 #: forum_modules/exporter/urls.py:8 forum_modules/exporter/urls.py:10
 msgid "exporter/"
@@ -8288,7 +8290,7 @@ msgstr ""
 
 #: forum_modules/exporter/views.py:21 forum_modules/exporter/views.py:69
 msgid "exporter"
-msgstr ""
+msgstr "Exporter"
 
 #: forum_modules/exporter/views.py:21
 msgid "XML data export"
@@ -8297,7 +8299,7 @@ msgstr ""
 #: forum_modules/exporter/templates/exporter.html:6
 #: forum_modules/exporter/templates/running.html:6
 msgid "XML data exporter"
-msgstr ""
+msgstr "XML Daten Exporter"
 
 #: forum_modules/exporter/templates/exporter.html:9
 #: forum_modules/exporter/templates/running.html:9
@@ -8609,6 +8611,9 @@ msgid ""
 "\n"
 "Use the OSQA update server recieve notifications about the latest updates.\n"
 msgstr ""
+"\n"
+"Benutze den OSQA Update Server um Benachrichtigungen über die neuesten "
+"Updates zu bekommen.\n"
 
 #: forum_modules/updates/urls.py:8
 msgid "updater/"
@@ -8637,7 +8642,7 @@ msgstr ""
 
 #: forum_modules/updates/templates/index.html:46
 msgid "Check for Updates"
-msgstr ""
+msgstr "Auf Updates prüfen"
 
 #: locale/phrases.py:1
 msgid "Test Phrase 1"
