@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-12 19:15+0000\n"
+"POT-Creation-Date: 2013-01-12 20:44+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -352,7 +352,7 @@ msgstr ""
 
 #: forum/urls.py:108
 msgid "preferences/"
-msgstr ""
+msgstr "einstellungen/"
 
 #: forum/urls.py:109
 msgid "favorites/"
@@ -469,7 +469,7 @@ msgstr ""
 
 #: forum/urls.py:144 forum/urls.py:155
 msgid "settings/"
-msgstr ""
+msgstr "einstellungen/"
 
 #: forum/urls.py:145
 msgid "maintenance/"
@@ -1042,7 +1042,7 @@ msgstr "Passwort wiederholen"
 
 #: forum/forms/general.py:136
 msgid "please, retype your password"
-msgstr "BItte Passwort wiederholen"
+msgstr "Bitte Passwort wiederholen"
 
 #: forum/forms/general.py:137
 msgid "sorry, entered passwords did not match, please try again"
@@ -1063,7 +1063,7 @@ msgstr "Bitte geb einen beschreibenden Titel für Deine Frage ein"
 #: forum/forms/qanda.py:32
 #, python-format
 msgid "title must be must be at least %s characters"
-msgstr ""
+msgstr "Der Titel muss mindestens %s Zeichen lang sein"
 
 #: forum/forms/qanda.py:40
 msgid "content"
@@ -1072,14 +1072,14 @@ msgstr ""
 #: forum/forms/qanda.py:53
 #, python-format
 msgid "question content must be at least %s characters"
-msgstr ""
+msgstr "Inhalt der Fragen muss mindestens %s Zeichen lang sein"
 
 #: forum/forms/qanda.py:64
 #, python-format
 msgid "answer content must be at least %s characters"
 msgstr "Antwort muss mindestens %s Zeichen lang sein."
 
-#: forum/forms/qanda.py:75 forum/skins/default/templates/header.html:71
+#: forum/forms/qanda.py:75 forum/skins/default/templates/header.html:78
 #: forum/skins/default/templates/search.html:22
 #: forum/skins/default/templates_old/header.html:36
 #: forum/skins/default/templates_old/search.html:21 forum/views/readers.py:264
@@ -1196,11 +1196,11 @@ msgstr "Diese Email Adresse ist bereits vorhanden, bitte verwende eine andere"
 
 #: forum/forms/qanda.py:324
 msgid "Instantly"
-msgstr ""
+msgstr "Sofort"
 
 #: forum/forms/qanda.py:327
 msgid "No notifications"
-msgstr ""
+msgstr "Keine Benachrichtigungen"
 
 #: forum/middleware/admin_messages.py:25
 #, python-format
@@ -1346,7 +1346,7 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:67
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:67
 msgid "Basic settings"
-msgstr ""
+msgstr "Grundeinstellungen"
 
 #: forum/settings/basic.py:9
 msgid "The basic settings for your application"
@@ -1426,7 +1426,7 @@ msgstr ""
 
 #: forum/settings/email.py:7
 msgid "Email settings"
-msgstr ""
+msgstr "Email Einstellungen"
 
 #: forum/settings/email.py:7
 msgid "Email server and other email related settings."
@@ -2925,7 +2925,7 @@ msgid "Account functions"
 msgstr ""
 
 #: forum/skins/default/templates/account_settings.html:29
-#: forum/skins/default/templates/auth/auth_settings.html:34
+#: forum/skins/default/templates/auth/auth_settings.html:48
 #: forum/skins/default/templates_old/account_settings.html:29
 #: forum/skins/default/templates_old/auth/auth_settings.html:34
 msgid "Change password"
@@ -3122,7 +3122,7 @@ msgstr "Einloggen/ Anmelden um Deine Frage zu stellen"
 #: forum/skins/default/templates/ask.html:157
 #: forum/skins/default/templates_old/ask.html:164
 msgid "Ask your question"
-msgstr ""
+msgstr "Stell Deine Frage"
 
 #: forum/skins/default/templates/badge.html:7
 #: forum/skins/default/templates/badge.html:19
@@ -3133,7 +3133,7 @@ msgstr ""
 
 #: forum/skins/default/templates/badge.html:34
 msgid "users have been awarded with badges"
-msgstr "Benutzer belohnt mir Abzeichen"
+msgstr "Benutzer belohnt mit Abzeichen"
 
 #: forum/skins/default/templates/badges.html:6
 #: forum/skins/default/templates_old/badges.html:6
@@ -3349,11 +3349,11 @@ msgstr ""
 msgid "Send Feedback"
 msgstr "Nachricht absenden"
 
-#: forum/skins/default/templates/header.html:50
+#: forum/skins/default/templates/header.html:57
 msgid "Ask A Question"
 msgstr "Frage Stellen"
 
-#: forum/skins/default/templates/header.html:59
+#: forum/skins/default/templates/header.html:66
 #: forum/skins/default/templates/opensearch.html:7
 #: forum/skins/default/templates/search.html:17
 #: forum/skins/default/templates_old/header.html:31
@@ -3362,7 +3362,7 @@ msgstr "Frage Stellen"
 msgid "search"
 msgstr "suchen"
 
-#: forum/skins/default/templates/header.html:67
+#: forum/skins/default/templates/header.html:74
 #: forum/skins/default/templates/search.html:21
 #: forum/skins/default/templates_old/header.html:35
 #: forum/skins/default/templates_old/search.html:20 forum/views/readers.py:93
@@ -3371,7 +3371,7 @@ msgstr "suchen"
 msgid "questions"
 msgstr "Fragen"
 
-#: forum/skins/default/templates/header.html:75
+#: forum/skins/default/templates/header.html:82
 #: forum/skins/default/templates/search.html:23
 #: forum/skins/default/templates_old/header.html:37
 #: forum/skins/default/templates_old/search.html:22 forum/views/users.py:58
@@ -4235,7 +4235,7 @@ msgid ""
 "username and password!"
 msgstr ""
 
-#: forum/skins/default/templates/auth/auth_settings.html:34
+#: forum/skins/default/templates/auth/auth_settings.html:48
 #: forum/skins/default/templates_old/auth/auth_settings.html:34
 msgid "Create password"
 msgstr "Passwort erstellen"
@@ -5960,7 +5960,7 @@ msgstr ""
 #: forum/skins/default/templates/question_list/tag_selector.html:7
 #: forum/skins/default/templates_old/question_list/tag_selector.html:7
 msgid "Interesting tags"
-msgstr ""
+msgstr "Favoritisierte Tags"
 
 #: forum/skins/default/templates/question_list/tag_selector.html:18
 #: forum/skins/default/templates_old/question_list/tag_selector.html:18
@@ -5978,7 +5978,7 @@ msgstr ""
 #: forum/skins/default/templates/question_list/tag_selector.html:27
 #: forum/skins/default/templates_old/question_list/tag_selector.html:25
 msgid "Ignored tags"
-msgstr ""
+msgstr "Ignorierte Tags"
 
 #: forum/skins/default/templates/question_list/tag_selector.html:38
 #: forum/skins/default/templates_old/question_list/tag_selector.html:36
@@ -6070,21 +6070,21 @@ msgstr "Mehr über Markdown lernen."
 #: forum/skins/default/templates/sidebar/recent_awards.html:3
 #: forum/skins/default/templates_old/sidebar/recent_awards.html:4
 msgid "Recent awards"
-msgstr ""
+msgstr "Aktuelle Abzeichen"
 
 #: forum/skins/default/templates/sidebar/recent_awards.html:13
 msgid "All Awards"
-msgstr ""
+msgstr "Alle Abzeichen"
 
 #: forum/skins/default/templates/sidebar/recent_tags.html:7
 #: forum/skins/default/templates_old/sidebar/recent_tags.html:7
 msgid "Recent tags"
-msgstr ""
+msgstr "Aktuelle Tags"
 
 #: forum/skins/default/templates/sidebar/recent_tags.html:12
 #: forum/skins/default/templates_old/sidebar/recent_tags.html:14
 msgid "popular tags"
-msgstr ""
+msgstr "Populäre Tags"
 
 #: forum/skins/default/templates/users/edit.html:6
 #: forum/skins/default/templates_old/users/edit.html:6
@@ -6194,12 +6194,12 @@ msgstr ""
 #: forum/skins/default/templates/users/preferences.html:6
 #: forum/skins/default/templates_old/users/preferences.html:6
 msgid "Preferences"
-msgstr ""
+msgstr "Einstellungen"
 
 #: forum/skins/default/templates/users/preferences.html:11
 #: forum/skins/default/templates_old/users/preferences.html:11
 msgid "Here you can set some personal preferences."
-msgstr ""
+msgstr "Hier kannst Du ein paar persönliche Einstellugen festlegen."
 
 #: forum/skins/default/templates/users/preferences.html:17
 #: forum/skins/default/templates_old/users/preferences.html:17
@@ -6209,7 +6209,7 @@ msgstr ""
 #: forum/skins/default/templates/users/preferences.html:22
 #: forum/skins/default/templates_old/users/preferences.html:22
 msgid "Always remember the sort order I apply to the lists I view"
-msgstr ""
+msgstr "Speichere immer die Sortierung der Listenansichten"
 
 #: forum/skins/default/templates/users/questions.html:11
 #: forum/skins/default/templates_old/users/questions.html:11
@@ -6317,12 +6317,12 @@ msgstr[1] ""
 #: forum/skins/default/templates/users/subscriptions_management.html:6
 #: forum/skins/default/templates_old/users/subscriptions_management.html:6
 msgid "Manage your current subscriptions"
-msgstr ""
+msgstr "Verwalte Deinen Abonnements"
 
 #: forum/skins/default/templates/users/subscriptions_management.html:9
 #: forum/skins/default/templates_old/users/subscriptions_management.html:9
 msgid "don't show auto-subscribe"
-msgstr ""
+msgstr "Automatische Abonnements nicht zeigen"
 
 #: forum/skins/default/templates/users/subscriptions_management.html:11
 #: forum/skins/default/templates_old/users/subscriptions_management.html:11
@@ -6332,7 +6332,7 @@ msgstr ""
 #: forum/skins/default/templates/users/subscriptions_settings.html:5
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:5
 msgid "Notifications and subscription settings"
-msgstr ""
+msgstr "Einstellungen zur Benachrichtigung und Abonierung"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:7
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:7
@@ -6342,46 +6342,50 @@ msgid ""
 "and their frequency.<br />\n"
 "    "
 msgstr ""
+"\n"
+"    Hier kannst Du entscheiden welchen Arten von Benachrichtigungen Du "
+"bekommen möchtest und wie oft.<br />\n"
+"    "
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:18
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:18
 msgid "Notify me when:"
-msgstr ""
+msgstr "Benachrichtige mich wenn:"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:22
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:22
 msgid "A new member joins"
-msgstr ""
+msgstr "Ein neues Mitglied registriert sich"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:26
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:26
 msgid "A new question is posted"
-msgstr ""
+msgstr "Eine neue Frage wurde gestellt"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:30
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:30
 msgid "A new question matching my interesting tags is posted"
-msgstr ""
+msgstr "Eine neue Frage passend zu meinen bevorzugten Tags wurde gestellt"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:34
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:34
 msgid "There's an update on one of my subscriptions"
-msgstr ""
+msgstr "Es gibt ein Update in einem meiner Abonnements"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:42
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:42
 msgid "Auto subscribe me to:"
-msgstr ""
+msgstr "Abonniere mich automatisch für:"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:47
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:47
 msgid "Questions I view"
-msgstr ""
+msgstr "Angeschaute Fragen"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:50
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:50
 msgid "All questions matching my interesting tags"
-msgstr ""
+msgstr "Alle zu meinen bevorzugten Tags passende Fragen"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:53
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:53
@@ -6391,42 +6395,44 @@ msgstr "Alle Fragen"
 #: forum/skins/default/templates/users/subscriptions_settings.html:61
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:61
 msgid "On my subscriptions, notify me when:"
-msgstr ""
+msgstr "Bei meinen Abonnements, benachrichtige mich wenn:"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:66
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:66
 msgid "An answer is posted"
-msgstr ""
+msgstr "Eine Antwort wurde geschrieben"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:69
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:69
 msgid "A comment on one of my posts is posted"
-msgstr ""
+msgstr "Ein Kommentar zu einem meiner Posts wurde geschrieben"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:74
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:74
 msgid "A comment is posted"
-msgstr ""
+msgstr "Ein Kommentar wird geschrieben"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:77
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:77
 msgid "An answer is accepted"
-msgstr ""
+msgstr "Eine Antwort wurde akzeptiert"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:85
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:85
 msgid "Daily Digest:"
-msgstr ""
+msgstr "Tägliche Zusammenfassungen:"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:90
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:90
 msgid "Send me the daily digest with information about the site activity"
 msgstr ""
+"Schicke mit tägliche Zusammenfassungen mit Informationen über Aktivitäten "
+"der Seite."
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:95
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:95
 msgid "Notify When I'm Discussed:"
-msgstr ""
+msgstr "Benachrichtigungen wenn über mich gesprochen wird:"
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:100
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:100
@@ -6434,6 +6440,8 @@ msgid ""
 "Notify me when someone replies to one of my comments on any post using the "
 "<pre>@username</pre> notation"
 msgstr ""
+"Benachrichtige mich wenn jemand auf meine Kommentare mit der "
+"<pre>@nutzername</pre> Notation antwortet"
 
 #: forum/skins/default/templates/users/suspend_user.html:4
 #: forum/skins/default/templates_old/users/suspend_user.html:4
@@ -7027,7 +7035,7 @@ msgstr ""
 
 #: forum/views/auth.py:330
 msgid "Your password was changed"
-msgstr ""
+msgstr "Dein Passwort wurde verandert"
 
 #: forum/views/auth.py:366
 #, python-format
@@ -7037,7 +7045,7 @@ msgstr ""
 #: forum/views/auth.py:381
 #, python-format
 msgid "Welcome back %s, you are now logged in"
-msgstr ""
+msgstr "Wilkommen zurück, %s! Du bist jetzt angemeldet"
 
 #: forum/views/auth.py:395
 #, python-format

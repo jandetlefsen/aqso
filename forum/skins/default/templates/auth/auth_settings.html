@@ -17,7 +17,7 @@
     <p class="message">{% blocktrans %}You currently have no external authentication provider associated with your account.{% endblocktrans %}</p>
 {% endif %}
 {% ifequal view_user request.user %}
-    <input type="button" class="submit" value="{% trans "Add new provider" %}" onclick="window.location='{% url user_add_external_provider %}'" />
+    <input type="button" class="submit btn" value="{% trans "Add new provider" %}" onclick="window.location='{% url user_add_external_provider %}'" />
 {% endifequal %}
 {% if allow_local_auth %}
 {% if has_password %}
@@ -26,12 +26,28 @@
     <p class="message">{% blocktrans %}You can set up a password for your account, so you can login using standard username and password!{% endblocktrans %}</p>
 {% endif %}
 <div class="aligned">
-	<form action="" method="post" accept-charset="utf-8">
+	<form action="" method="post" accept-charset="utf-8" class="form-horizontal">
         {% csrf_token %}
-        <ul id="changepw-form" class="form-horizontal-rows">
-        {{form.as_ul}}
-        </ul>
-        <div class="submit-row"><input type="submit" class="submit btn" value="{% if has_password %}{% trans "Change password" %}{% endif %}{% if not has_password %}{% trans "Create password" %}{% endif %}" /></div>
+        <div class="control-group">
+            <label class="control-label" for="id_password1">Passwort Auswählen</label>
+            <div class="controls">
+                {{ form.password1 }}
+                <span class="help-inline">{{ form.password1.errors }}</span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="id_password2">Passwort Wiederholen</label>
+            <div class="controls">
+                {{ form.password2 }}
+                <span class="help-inline">{{ form.password2.errors }}</span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label"></label>
+            <div class="controls">
+                <input type="submit" class="submit btn" value="{% if has_password %}{% trans "Change password" %}{% endif %}{% if not has_password %}{% trans "Create password" %}{% endif %}" />
+            </div>
+        </div>
 	</form>
 	</div>
 {% endif %}

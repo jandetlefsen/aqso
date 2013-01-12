@@ -17,13 +17,20 @@
               <a href="/osqa/admin">Administration</a>
             </li>
 
-            <li>
-              <a href="/osqa/users/1/admin">Admin</a>
-            </li>
+            {% if user.is_authenticated %}  
+                <li>
+                  <a href="/osqa/benutzer/{{ user.id }}">Konto</a>
+                </li>
 
-            <li>
-              <a href="/osqa/abmelden">Abmelden</a>
-            </li>
+                <li>
+                    <a href="/osqa/abmelden">Abmelden</a>
+                </li>
+            {% else %}
+                <li>
+                    <a href="/osqa/konto/anmelden">Anmelden</a>
+                </li>
+            {% endif %}
+            
 
             <li>
               <a href="/osqa/about">About</a>
