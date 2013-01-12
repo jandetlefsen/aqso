@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-12 20:44+0000\n"
+"POT-Creation-Date: 2013-01-12 22:50+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -49,7 +49,7 @@ msgstr "Kommentar von %(cauthor)s auf %(pauthor)s's %(qora)s"
 #: forum/skins/default/templates_old/question_list/item.html:15
 #: forum/views/writers.py:260 forum_modules/akismet/startup.py:76
 msgid "answer"
-msgstr "antwort"
+msgstr "Antwort"
 
 #: forum/feed.py:103 forum/models/question.py:17
 #: forum/skins/default/templates/osqaadmin/dashboard.html:19
@@ -58,7 +58,7 @@ msgstr "antwort"
 #: forum/skins/default/templates_old/osqaadmin/index.html:21
 #: forum/views/writers.py:91 forum_modules/akismet/startup.py:75
 msgid "question"
-msgstr "frage"
+msgstr "Frage"
 
 #: forum/registry.py:24 forum/registry.py:59
 #: forum/skins/default/templates/index.html:15
@@ -493,7 +493,7 @@ msgstr "werkzeuge/"
 
 #: forum/urls.py:157
 msgid "test_email_settings/"
-msgstr ""
+msgstr "test_email_einstellungen/"
 
 #: forum/actions/meta.py:39
 #, python-format
@@ -616,7 +616,7 @@ msgstr ""
 
 #: forum/actions/node.py:139
 msgid "closed"
-msgstr ""
+msgstr "geschlossen"
 
 #: forum/actions/node.py:153
 #, python-format
@@ -739,11 +739,11 @@ msgstr ""
 #: forum/actions/user.py:75
 #, python-format
 msgid "Congratulations, you have been awarded an extra %s reputation points."
-msgstr ""
+msgstr "Glückwunsch, Du hast %s extra Punkte verdient."
 
 #: forum/actions/user.py:76
 msgid "Thank you"
-msgstr ""
+msgstr "Danke"
 
 #: forum/actions/user.py:79
 #, python-format
@@ -826,7 +826,7 @@ msgstr ""
 
 #: forum/actions/user.py:213
 msgid "Your suspension has been removed."
-msgstr ""
+msgstr "Deine Suspendierung wurde entfernt."
 
 #: forum/actions/user.py:217
 #, python-format
@@ -906,7 +906,7 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:285
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:285
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: forum/forms/admin.py:77
 msgid "Page URL"
@@ -946,11 +946,11 @@ msgstr ""
 
 #: forum/forms/admin.py:99
 msgid "send validation email"
-msgstr ""
+msgstr "Bestätigunsemail versenden"
 
 #: forum/forms/admin.py:104
 msgid "email address"
-msgstr ""
+msgstr "Email Adresse"
 
 #: forum/forms/auth.py:21
 msgid "Your account email"
@@ -1228,7 +1228,7 @@ msgstr ""
 
 #: forum/models/action.py:216
 msgid "You"
-msgstr ""
+msgstr "Du"
 
 #: forum/models/action.py:231
 #, python-format
@@ -1243,7 +1243,7 @@ msgstr ""
 #: forum/models/comment.py:6 forum/views/commands.py:232
 #: forum/views/commands.py:258 forum_modules/akismet/startup.py:77
 msgid "comment"
-msgstr ""
+msgstr "Kommentieren"
 
 #: forum/models/meta.py:46
 msgid "Unknown"
@@ -1268,7 +1268,7 @@ msgstr ""
 
 #: forum/models/question.py:34
 msgid "[closed] "
-msgstr ""
+msgstr "[geschlossen]"
 
 #: forum/models/tag.py:61
 msgid "interesting"
@@ -1350,23 +1350,23 @@ msgstr "Grundeinstellungen"
 
 #: forum/settings/basic.py:9
 msgid "The basic settings for your application"
-msgstr ""
+msgstr "Die Grundeinstellungen für Deine Anwendung"
 
 #: forum/settings/basic.py:12
 msgid "Application logo"
-msgstr ""
+msgstr "Logo der Anwendung"
 
 #: forum/settings/basic.py:13
 msgid "Your site main logo."
-msgstr ""
+msgstr "Logo Deiner Seite."
 
 #: forum/settings/basic.py:17
 msgid "Favicon"
-msgstr ""
+msgstr "Favicon"
 
 #: forum/settings/basic.py:18
 msgid "Your site favicon."
-msgstr ""
+msgstr "Favicon Deiner Seite."
 
 #: forum/settings/basic.py:22
 msgid "Application title"
@@ -1434,7 +1434,7 @@ msgstr ""
 
 #: forum/settings/email.py:10
 msgid "E-Mail settings test"
-msgstr ""
+msgstr "Teste Email Einstellungen"
 
 #: forum/settings/email.py:11
 msgid "Test the current E-Mail configuration."
@@ -1559,7 +1559,7 @@ msgstr ""
 
 #: forum/settings/extkeys.py:4
 msgid "External Keys"
-msgstr ""
+msgstr "Externe Schlüssel"
 
 #: forum/settings/extkeys.py:4
 msgid ""
@@ -1588,11 +1588,11 @@ msgstr ""
 
 #: forum/settings/form.py:5
 msgid "Form settings"
-msgstr ""
+msgstr "Formular Einstellungen"
 
 #: forum/settings/form.py:5
 msgid "General settings for the OSQA forms."
-msgstr ""
+msgstr "Basis Einstellungen für das OSQA Forum."
 
 #: forum/settings/form.py:8
 msgid "Enable community wiki"
@@ -1708,11 +1708,11 @@ msgstr ""
 
 #: forum/settings/forms.py:53
 msgid "context"
-msgstr ""
+msgstr "Kontext"
 
 #: forum/settings/forms.py:53
 msgid "default"
-msgstr ""
+msgstr "Voreinstellung"
 
 #: forum/settings/forms.py:66
 msgid "Change this:"
@@ -1924,7 +1924,7 @@ msgstr ""
 
 #: forum/settings/moderation.py:8
 msgid "Moderation settings"
-msgstr ""
+msgstr "Moderations Einstellugen"
 
 #: forum/settings/moderation.py:8
 msgid "Define the moderation workflow of your site"
@@ -1973,7 +1973,7 @@ msgstr ""
 
 #: forum/settings/repgain.py:4
 msgid "Reputation gains and losses config"
-msgstr ""
+msgstr "Einstellungen Gewinne und Verluste in Reputation"
 
 #: forum/settings/repgain.py:4
 msgid ""
@@ -2113,7 +2113,7 @@ msgstr ""
 
 #: forum/settings/sitemaps.py:5
 msgid "Sitemap settings"
-msgstr ""
+msgstr "Sitemap Einstellungen"
 
 #: forum/settings/sitemaps.py:5
 msgid "Some settings connected with the Sitemaps."
@@ -2139,19 +2139,19 @@ msgstr ""
 
 #: forum/settings/static.py:17
 msgid "Use custom CSS"
-msgstr ""
+msgstr "Benutzerdefiniertes CSS verwenden"
 
 #: forum/settings/static.py:18
 msgid "Do you want to use custom CSS."
-msgstr ""
+msgstr "Mochtest Du benutzerdefiniertes CSS verwenden."
 
 #: forum/settings/static.py:22
 msgid "Custom CSS"
-msgstr ""
+msgstr "Benutzerdefiniertes CSS"
 
 #: forum/settings/static.py:23
 msgid "Your custom CSS."
-msgstr ""
+msgstr "Dein benutzerdefiniertes CSS"
 
 #: forum/settings/static.py:31
 msgid "Use custom header"
@@ -2159,7 +2159,7 @@ msgstr ""
 
 #: forum/settings/static.py:32
 msgid "Do you want to use a custom header."
-msgstr ""
+msgstr "Möchtest Du einen benutzerdefinierten Header verwenden."
 
 #: forum/settings/static.py:36
 msgid "Custom Header"
@@ -2167,7 +2167,7 @@ msgstr ""
 
 #: forum/settings/static.py:37
 msgid "Your custom header."
-msgstr ""
+msgstr "Dein benutzerdefinierter Head"
 
 #: forum/settings/static.py:42
 msgid "Custom Header rendering mode"
@@ -2249,23 +2249,23 @@ msgstr ""
 
 #: forum/settings/static.py:98
 msgid "Use custom Head elements"
-msgstr ""
+msgstr "Benutzerdefinierte Head Elemente benutzen"
 
 #: forum/settings/static.py:99
 msgid "Do you want to use custom head elements."
-msgstr ""
+msgstr "Möchtest Du benutzerdefinierte Head Elemente verwenden."
 
 #: forum/settings/static.py:103
 msgid "Custom Head"
-msgstr ""
+msgstr "Benutzerdefinierte Head Elemente"
 
 #: forum/settings/static.py:104
 msgid "Your custom Head elements."
-msgstr ""
+msgstr "Deine benutzerdefinierten Head Elemente."
 
 #: forum/settings/upload.py:5
 msgid "File upload settings"
-msgstr ""
+msgstr "Datei Upload Einstellungen"
 
 #: forum/settings/upload.py:5
 msgid "File uploads related settings."
@@ -2301,7 +2301,7 @@ msgstr ""
 
 #: forum/settings/urls.py:4
 msgid "URL settings"
-msgstr ""
+msgstr "URL Einstellungen"
 
 #: forum/settings/urls.py:4
 msgid "Some settings to tweak behaviour of site urls (experimental)."
@@ -2335,7 +2335,7 @@ msgstr ""
 
 #: forum/settings/users.py:7
 msgid "Users settings"
-msgstr ""
+msgstr "Benutzer Einstellungen"
 
 #: forum/settings/users.py:7
 msgid "General settings for the OSQA users."
@@ -2397,7 +2397,7 @@ msgstr ""
 
 #: forum/settings/users.py:29 forum/templatetags/node_tags.py:107
 msgid "edit"
-msgstr ""
+msgstr "bearbeiten"
 
 #: forum/settings/users.py:29 forum/views/auth.py:396 forum/views/auth.py:401
 msgid "save"
@@ -2405,7 +2405,7 @@ msgstr ""
 
 #: forum/settings/users.py:29 forum/templatetags/node_tags.py:133
 msgid "delete"
-msgstr ""
+msgstr "löschen"
 
 #: forum/settings/users.py:29
 msgid "manage"
@@ -2591,7 +2591,7 @@ msgstr ""
 
 #: forum/settings/view.py:5
 msgid "View settings"
-msgstr ""
+msgstr "Ansicht Einstellungen"
 
 #: forum/settings/view.py:5
 msgid "Set up how certain parts of the site are displayed."
@@ -3209,7 +3209,7 @@ msgstr ""
 #: forum/skins/default/templates/badges.html:71
 #: forum/skins/default/templates_old/badges.html:57
 msgid "bronze"
-msgstr ""
+msgstr "Bronze"
 
 #: forum/skins/default/templates/badges.html:74
 #: forum/skins/default/templates_old/badges.html:60
@@ -3219,32 +3219,32 @@ msgstr "Bronze Abzeichen belohnen aktive Teilnahme an der Website."
 #: forum/skins/default/templates/base_content.html:46
 #: forum/skins/default/templates_old/base_content.html:40
 msgid "Are you sure?"
-msgstr ""
+msgstr "Bist Du sicher?"
 
 #: forum/skins/default/templates/base_content.html:47
 #: forum/skins/default/templates_old/base_content.html:41
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: forum/skins/default/templates/base_content.html:48
 #: forum/skins/default/templates_old/base_content.html:42
 msgid "No"
-msgstr ""
+msgstr "Nein"
 
 #: forum/skins/default/templates/base_content.html:49
 #: forum/skins/default/templates_old/base_content.html:43
 msgid "Message:"
-msgstr ""
+msgstr "Mitteilung:"
 
 #: forum/skins/default/templates/base_content.html:51
 #: forum/skins/default/templates_old/base_content.html:45
 msgid "Close"
-msgstr ""
+msgstr "Schliessen"
 
 #: forum/skins/default/templates/base_content.html:52
 #: forum/skins/default/templates_old/base_content.html:46
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 #: forum/skins/default/templates/base_content.html:54
 #: forum/skins/default/templates_old/base_content.html:48
@@ -3258,7 +3258,7 @@ msgstr ""
 #: forum/skins/default/templates/base_content.html:55
 #: forum/skins/default/templates_old/base_content.html:49
 msgid "words"
-msgstr ""
+msgstr "Worte"
 
 #: forum/skins/default/templates/base_content.html:56
 #: forum/skins/default/templates_old/base_content.html:50
@@ -3272,29 +3272,29 @@ msgstr ""
 #: forum/skins/default/templates/base_content.html:57
 #: forum/skins/default/templates_old/base_content.html:51
 msgid "characters"
-msgstr ""
+msgstr "Zeichen"
 
 #: forum/skins/default/templates/close.html:6
 #: forum/skins/default/templates/close.html:16
 #: forum/skins/default/templates_old/close.html:6
 #: forum/skins/default/templates_old/close.html:16
 msgid "Close question"
-msgstr ""
+msgstr "Frage schliessen"
 
 #: forum/skins/default/templates/close.html:19
 #: forum/skins/default/templates_old/close.html:19
 msgid "Close the question"
-msgstr ""
+msgstr "Die Frage schliessen"
 
 #: forum/skins/default/templates/close.html:26
 #: forum/skins/default/templates_old/close.html:26
 msgid "Reasons"
-msgstr ""
+msgstr "Gründe"
 
 #: forum/skins/default/templates/close.html:29
 #: forum/skins/default/templates_old/close.html:29
 msgid "OK to close"
-msgstr ""
+msgstr "OK zum Schliessen"
 
 #: forum/skins/default/templates/email_base.html:32
 #: forum/skins/default/templates_old/email_base.html:32
@@ -4112,7 +4112,7 @@ msgstr "Per Email"
 #: forum/skins/default/templates/subscription_status.html:9
 #: forum/skins/default/templates_old/subscription_status.html:9
 msgid "You were automatically subscribed to this question."
-msgstr ""
+msgstr "Diese Frage wurde automatisch abonniert."
 
 #: forum/skins/default/templates/subscription_status.html:11
 #: forum/skins/default/templates_old/subscription_status.html:11
@@ -4128,7 +4128,7 @@ msgstr ""
 #: forum/skins/default/templates_old/subscription_status.html:19
 #: forum/views/commands.py:489
 msgid "unsubscribe me"
-msgstr ""
+msgstr "Abonnement entfernen"
 
 #: forum/skins/default/templates/subscription_status.html:24
 #: forum/skins/default/templates_old/subscription_status.html:21
@@ -4145,6 +4145,10 @@ msgid ""
 "\"%(subscriptions_url)s\">profile</a>)\n"
 "        "
 msgstr ""
+"\n"
+"            (Du kannst die Benachrichtigungen selber auf Deiner <a href="
+"\"%(subscriptions_url)s\">Profil Seite</a> einstellen)\n"
+"        "
 
 #: forum/skins/default/templates/subscription_status.html:34
 #: forum/skins/default/templates_old/subscription_status.html:30
@@ -4186,7 +4190,7 @@ msgstr "Tag Liste"
 #: forum/skins/default/templates/tags.html:38
 #: forum/skins/default/templates_old/tags.html:35
 msgid "All tags matching query"
-msgstr ""
+msgstr "Alle Tags passend zur Suche"
 
 #: forum/skins/default/templates/tags.html:41
 #: forum/skins/default/templates_old/tags.html:38
@@ -4619,12 +4623,12 @@ msgstr "alle anzeigen"
 #: forum/skins/default/templates/node/comments.html:47
 #: forum/skins/default/templates_old/node/comments.html:47
 msgid "add new comment"
-msgstr ""
+msgstr "Neuen Kommentar hinzufügen"
 
 #: forum/skins/default/templates/node/comments.html:61
 #: forum/skins/default/templates_old/node/comments.html:59
 msgid "characters needed"
-msgstr ""
+msgstr "Zeichen minimum"
 
 #: forum/skins/default/templates/node/comments.html:62
 #: forum/skins/default/templates_old/node/comments.html:60
@@ -4633,16 +4637,16 @@ msgstr ""
 
 #: forum/skins/default/templates/node/comments.html:64
 msgid " Comment"
-msgstr ""
+msgstr "Kommentieren"
 
 #: forum/skins/default/templates/node/comments.html:65
 msgid " Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #: forum/skins/default/templates/node/comments.html:71
 #: forum/skins/default/templates_old/node/comments.html:69
 msgid "Use canned comment"
-msgstr ""
+msgstr "Benutze vorbereiteten Kommentar"
 
 #: forum/skins/default/templates/node/comments.html:95
 #: forum/skins/default/templates_old/node/comments.html:93
@@ -5070,7 +5074,7 @@ msgstr ""
 #: forum/skins/default/templates_old/osqaadmin/base.html:15
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:22
 msgid "OSQA administration area"
-msgstr ""
+msgstr "OSQA Administrations Bereich"
 
 #: forum/skins/default/templates/osqaadmin/base.html:29
 #: forum/skins/default/templates_old/osqaadmin/base.html:29
@@ -5091,7 +5095,7 @@ msgstr ""
 #: forum/skins/default/templates_old/osqaadmin/maintenance.html:5
 #: forum/skins/default/templates_old/osqaadmin/maintenance.html:6
 msgid "Maintenance mode"
-msgstr ""
+msgstr "Wartungsmodus"
 
 #: forum/skins/default/templates/osqaadmin/base.html:43
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:131
@@ -5104,7 +5108,7 @@ msgstr ""
 #: forum/skins/default/templates_old/osqaadmin/flagged_posts.html:7
 #: forum/skins/default/templates_old/osqaadmin/flagged_posts.html:13
 msgid "Flagged Posts"
-msgstr ""
+msgstr "Geflaggte Posts"
 
 #: forum/skins/default/templates/osqaadmin/createuser.html:7
 #: forum/skins/default/templates_old/osqaadmin/createuser.html:7
@@ -5147,7 +5151,7 @@ msgstr ""
 #: forum/skins/default/templates_old/osqaadmin/dashboard.html:10
 #: forum/skins/default/templates_old/osqaadmin/index.html:10
 msgid "Welcome to the OSQA administration area."
-msgstr ""
+msgstr "Wilkommen zum OSQA Administrations Bereich"
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:16
 #: forum/skins/default/templates_old/osqaadmin/dashboard.html:16
@@ -5261,12 +5265,12 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:35
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:35
 msgid "To standard interface"
-msgstr ""
+msgstr "Zum Standard Interface"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:36
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:36
 msgid "Back to home page"
-msgstr ""
+msgstr "Zurück zur Homepage"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:37
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:37
@@ -5291,12 +5295,12 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:78
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:78
 msgid "Workflow settings"
-msgstr ""
+msgstr "Workflow Einstellungen"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:88
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:88
 msgid "Forum settings"
-msgstr ""
+msgstr "Forum Einstellungen"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:96
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:96
@@ -5322,12 +5326,12 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:117
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:117
 msgid "Other settings"
-msgstr ""
+msgstr "Andere Einstellungen"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:128
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:128
 msgid "Tools"
-msgstr ""
+msgstr "Werkzeuge"
 
 #: forum/skins/default/templates/osqaadmin/edit_page.html:5
 #: forum/skins/default/templates/osqaadmin/edit_page.html:8
@@ -5583,7 +5587,7 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:264
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:264
 msgid "Nodes bulk management"
-msgstr ""
+msgstr "Nodes Massen Bearbeitung"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:278
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:278
@@ -5593,12 +5597,12 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:290
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:290
 msgid "Body"
-msgstr ""
+msgstr "Inhalt"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:295
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:295
 msgid "Title and Body"
-msgstr ""
+msgstr "Titel und Inhalt"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:325
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:325
@@ -5608,12 +5612,12 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:325
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:325
 msgid "Click to show/hide"
-msgstr ""
+msgstr "Klick zum Zeigen/Verstecken"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:327
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:327
 msgid "By type"
-msgstr ""
+msgstr "Nach Typ"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:330
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:330
@@ -5623,7 +5627,7 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:330
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:330
 msgid "all"
-msgstr ""
+msgstr "Alle"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:333
 #: forum/skins/default/templates/osqaadmin/nodeman.html:344
@@ -5642,7 +5646,7 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:338
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:338
 msgid "By state"
-msgstr ""
+msgstr "Nach Status"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:341
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:341
@@ -5652,27 +5656,29 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:341
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:341
 msgid "any"
-msgstr ""
+msgstr "beliebig"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:350
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:350
 msgid "Match any selected"
-msgstr ""
+msgstr "Beliebige Auswahl entsprechen"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:351
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:351
 msgid "Match all selected"
-msgstr ""
+msgstr "Komplette Auswahl entsprechen"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:355
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:355
 msgid "By author(s)"
-msgstr ""
+msgstr "Nach Autor(en)"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:357
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:357
 msgid "No users selected, use the box bellow to add users to the filter."
 msgstr ""
+"Keine Benutzer ausgewählt, benutze die Textbox um Benutzer zum Filter "
+"hinzuzufügen."
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:367
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:367
@@ -5682,7 +5688,7 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:371
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:371
 msgid "By tag(s)"
-msgstr ""
+msgstr "Nach Tag(s)"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:373
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:373
@@ -5697,12 +5703,13 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:387
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:387
 msgid "Pre defined"
-msgstr ""
+msgstr "Vorbestimmt"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:389
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:389
 msgid "There are no saved filters. Click bellow to add."
 msgstr ""
+"Es gibt noch keine gespeicherten Filter. Klick hier um welche hinzuzufügen."
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:398
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:398
@@ -5722,22 +5729,22 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:418
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:418
 msgid "Mark deleted"
-msgstr ""
+msgstr "Zum Löschen markieren"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:419
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:419
 msgid "Undelete"
-msgstr ""
+msgstr "Löschen zurücknehmen"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:420
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:420
 msgid "Delete completely"
-msgstr ""
+msgstr "Endgültig löschen"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:421
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:421
 msgid "Close (questions only)"
-msgstr ""
+msgstr "Schliessen (nur Fragen)"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:424
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:424
@@ -5747,37 +5754,37 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/nodeman.html:446
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:446
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:447
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:447
 msgid "Summary"
-msgstr ""
+msgstr "Zusammenfassung"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:449
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:449
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:451
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:451
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:454
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:454
 msgid "Added at"
-msgstr ""
+msgstr "Hinzugefügt am"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:463
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:463
 msgid "Last activity by"
-msgstr ""
+msgstr "Letzte Aktivitat von"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:466
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:466
 msgid "Last activity at"
-msgstr ""
+msgstr "Letzte Aktivität am"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:468
 #: forum/skins/default/templates_old/osqaadmin/nodeman.html:468
@@ -6182,7 +6189,7 @@ msgstr ""
 #: forum/skins/default/templates_old/users/users.html:29
 #, python-format
 msgid "users matching query %(suser)s:"
-msgstr ""
+msgstr "Benutzer gefunden zur Suche %(suser)s:"
 
 #: forum/skins/default/templates/users/online_users.html:33
 #: forum/skins/default/templates/users/users.html:36
@@ -6559,7 +6566,7 @@ msgstr "zurück zur Homepage"
 
 #: forum/skins/default/templates_old/header.html:20
 msgid "ask a question"
-msgstr "frage stellen"
+msgstr "Frage stellen"
 
 #: forum/skins/default/templates_old/node/comments.html:62
 msgid " comment"
@@ -6802,7 +6809,7 @@ msgstr ""
 
 #: forum/templatetags/node_tags.py:117
 msgid "close"
-msgstr ""
+msgstr "schliessen"
 
 #: forum/templatetags/node_tags.py:120
 msgid "report"
@@ -6819,11 +6826,11 @@ msgstr ""
 
 #: forum/templatetags/node_tags.py:137
 msgid "see revisions"
-msgstr ""
+msgstr "Revisionen anschauen"
 
 #: forum/templatetags/node_tags.py:144
 msgid "mark as community wiki"
-msgstr ""
+msgstr "Für die Community Wiki markieren"
 
 #: forum/templatetags/node_tags.py:148
 msgid "cancel community wiki"
@@ -6888,7 +6895,7 @@ msgstr ""
 
 #: forum/views/admin.py:410
 msgid "Create new user"
-msgstr ""
+msgstr "Neuen Benutzer erstellen"
 
 #: forum/views/admin.py:425
 #, python-format
@@ -6946,7 +6953,7 @@ msgstr ""
 
 #: forum/views/admin.py:451
 msgid "Bulk management"
-msgstr ""
+msgstr "Massen Bearbeitung"
 
 #: forum/views/admin.py:457
 msgid "filter"
@@ -7045,7 +7052,7 @@ msgstr ""
 #: forum/views/auth.py:381
 #, python-format
 msgid "Welcome back %s, you are now logged in"
-msgstr "Wilkommen zurück, %s! Du bist jetzt angemeldet"
+msgstr "Wilkommen Zurück, %s! Du bist jetzt angemeldet."
 
 #: forum/views/auth.py:395
 #, python-format
@@ -7387,7 +7394,7 @@ msgstr ""
 #: forum/views/readers.py:126
 #, python-format
 msgid "Questions Tagged With %(tag)s"
-msgstr ""
+msgstr "Fragen mit %(tag)s markiert"
 
 #: forum/views/readers.py:146
 #, python-format
@@ -7419,16 +7426,16 @@ msgstr ""
 
 #: forum/views/readers.py:249
 msgid "relevance"
-msgstr ""
+msgstr "Relevanz"
 
 #: forum/views/readers.py:249
 msgid "most relevant questions"
-msgstr ""
+msgstr "relevanteste Fragen"
 
 #: forum/views/readers.py:257 forum/views/readers.py:259
 #, python-format
 msgid "questions matching '%(keywords)s'"
-msgstr ""
+msgstr "Fragen gefunden zu '%(keywords)s'"
 
 #: forum/views/readers.py:407
 #, python-format
@@ -8240,7 +8247,7 @@ msgstr ""
 
 #: forum_modules/exporter/settings.py:7
 msgid "Exporter settings"
-msgstr ""
+msgstr "Export Einstellungen"
 
 #: forum_modules/exporter/settings.py:7
 msgid "Data export settings"
@@ -8373,14 +8380,16 @@ msgstr ""
 #: forum_modules/localauth/forms.py:83
 msgid "Please enter valid username and password (both are case-sensitive)."
 msgstr ""
+"Bitte geb einen gültigen Benutzernamen und Passwort ein (beide achten auf "
+"Groß-und Kleinschreibung)."
 
 #: forum_modules/localauth/forms.py:87
 msgid "Login failed."
-msgstr ""
+msgstr "Anmeldung gescheitert."
 
 #: forum_modules/localauth/forms.py:91
 msgid "This user is not a valid user"
-msgstr ""
+msgstr "Dies ist keine gültiger Benutzer."
 
 #: forum_modules/localauth/forms.py:94
 msgid "Please enter username and password"
@@ -8580,7 +8589,7 @@ msgstr ""
 
 #: forum_modules/updates/settings.py:8
 msgid "Updater Settings"
-msgstr ""
+msgstr "Update Einstellungen"
 
 #: forum_modules/updates/settings.py:8
 msgid "OSQA Update Checker Settings."

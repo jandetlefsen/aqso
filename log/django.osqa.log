@@ -52821,3 +52821,2837 @@ IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/defa
 		
 
         
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 15:46:10,595 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 15:46:10,605 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/fragen/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x1d6d9f0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x1ad77f0>
+		REMOTE_PORT: 52238
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x2232378>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 15:47:05,098 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 15:47:05,128 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=112ee93cfbbafeb23c764885a0c854d0
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/2/what-is-this-forum-meant-to-do-yo
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x222f070>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x1d6e9b0>
+		REMOTE_PORT: 52255
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x1fe0e40>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/osqa/forum/utils/mail.py TIME: 2013-01-12 15:47:09,145 MSG: mail.py:create_and_send_mail_messages:89 Email sending has failed: timed out
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 15:51:02,952 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 15:51:02,994 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/2/what-is-this-forum-meant-to-do-yo
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3c8d770>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		HTTP_CACHE_CONTROL: max-age=0
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x3c8d430>
+		REMOTE_PORT: 52277
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3e01300>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 15:57:11,804 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 15:57:11,868 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/2/what-is-this-forum-meant-to-do-yo
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3398370>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		HTTP_CACHE_CONTROL: max-age=0
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x33a77f0>
+		REMOTE_PORT: 52315
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3624300>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 15:59:34,580 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 15:59:34,658 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/2/what-is-this-forum-meant-to-do-yo
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x1fb2230>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		HTTP_CACHE_CONTROL: max-age=0
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x1fa94f0>
+		REMOTE_PORT: 52343
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x7fd50d41db70>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:00:11,096 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:00:11,109 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/abzeichen/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x2fe4a30>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x36425b0>
+		REMOTE_PORT: 52356
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x363d990>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:00:34,350 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:00:34,365 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/benutzer/1/user
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x34da970>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x1fa94b0>
+		REMOTE_PORT: 52357
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x34d98a0>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:00:50,010 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:00:50,021 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/tags/zoom/?user=user
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x2d72a30>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x26311b0>
+		REMOTE_PORT: 52361
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3615be8>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:02:23,443 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:02:23,454 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/tags/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3064730>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x3281df0>
+		REMOTE_PORT: 52373
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x34cbaf8>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:02:29,072 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:02:29,078 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/fragen/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x34a48f0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x339b8f0>
+		REMOTE_PORT: 52374
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3626558>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:02:42,533 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:02:42,542 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/tags/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x1fa94f0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x338b530>
+		REMOTE_PORT: 52375
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x360e198>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:02:48,552 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:02:48,564 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/fragen/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x2d39930>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x2e7d9f0>
+		REMOTE_PORT: 52376
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x36160a8>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:03:25,376 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:03:25,384 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=112ee93cfbbafeb23c764885a0c854d0
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/3/die-is-ein-frage-zu-schauze
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3647330>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x34a7e30>
+		REMOTE_PORT: 52380
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x30b37b0>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:03:29,257 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:03:29,263 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/tags/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x345a1b0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x30ae6b0>
+		REMOTE_PORT: 52382
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3446f30>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/osqa/forum/utils/mail.py TIME: 2013-01-12 16:03:29,809 MSG: mail.py:create_and_send_mail_messages:89 Email sending has failed: timed out
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:03:32,319 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:03:32,326 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/fragen/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x1d5ef30>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x1d5ebf0>
+		REMOTE_PORT: 52383
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x1d65dc8>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 16:59:57,132 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 16:59:57,192 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=112ee93cfbbafeb23c764885a0c854d0
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/konto/anmelden/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x244bb70>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x27d5030>
+		REMOTE_PORT: 53137
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x2969be8>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:03:16,874 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:03:16,896 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=112ee93cfbbafeb23c764885a0c854d0; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/abmelden
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x244ab30>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x244ab70>
+		REMOTE_PORT: 53155
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x2a68af8>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 112ee93cfbbafeb23c764885a0c854d0
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:03:26,258 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:03:26,276 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3; greeting_set=True
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x2983970>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x251a530>
+		REMOTE_PORT: 53157
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x270f120>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:11:50,682 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:11:50,695 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: sessionid=4c94cbbb210c1c82eb21b36328227dc3; greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/about/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x2c75230>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x1576430>
+		REMOTE_PORT: 53247
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x2c6fb70>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:15:39,691 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:15:39,720 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/tags/?q=hell
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x2448af0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x2448b30>
+		REMOTE_PORT: 53269
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x2942af8>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:16:13,302 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:16:13,308 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/tags/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x15743f0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x157d1f0>
+		REMOTE_PORT: 53272
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x2bfa828>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:16:19,980 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:16:19,986 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/tags/?q=atag
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x24edb70>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x27cc030>
+		REMOTE_PORT: 53274
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x1309468>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:16:28,406 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:16:28,427 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/benutzer/?q=sasd
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x131ddb0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x131d970>
+		REMOTE_PORT: 53276
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x131c030>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/osqa/forum/templatetags/extra_tags.py TIME: 2013-01-12 17:17:06,318 MSG: extra_tags.py:render:312 Error in declare tag, when evaluating: questions.children_count('answer')
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:17:06,545 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:17:06,553 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/search/?csrfmiddlewaretoken=81a72712fbee19c54fec822691a370fb&q=asassa&Submit=suchen&t=question
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x130a0b0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x130a470>
+		REMOTE_PORT: 53281
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x130c918>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/osqa/forum/templatetags/extra_tags.py TIME: 2013-01-12 17:20:34,541 MSG: extra_tags.py:render:312 Error in declare tag, when evaluating: questions.children_count('answer')
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:20:35,292 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:20:35,333 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/search/?csrfmiddlewaretoken=81a72712fbee19c54fec822691a370fb&q=asassa&Submit=suchen&t=question
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3a79630>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x3a79530>
+		REMOTE_PORT: 53292
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x2400030>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:20:49,784 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:20:49,793 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x266c3f0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x266c430>
+		REMOTE_PORT: 53303
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x7fdfbdc99b70>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/osqa/forum/templatetags/extra_tags.py TIME: 2013-01-12 17:20:55,947 MSG: extra_tags.py:render:312 Error in declare tag, when evaluating: questions.children_count('answer')
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:20:57,034 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:20:57,042 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/search/?csrfmiddlewaretoken=81a72712fbee19c54fec822691a370fb&q=schauze&Submit=suchen&t=question
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x266c3f0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x266c430>
+		REMOTE_PORT: 53307
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x7fdfbdc99b70>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/osqa/forum/templatetags/extra_tags.py TIME: 2013-01-12 17:21:03,656 MSG: extra_tags.py:render:312 Error in declare tag, when evaluating: questions.children_count('answer')
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:21:03,819 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:21:03,832 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/search/?q=schauze&csrfmiddlewaretoken=81a72712fbee19c54fec822691a370fb&t=question&Submit=suchen&sortieren=mostvoted
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3a64ab0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x35edbf0>
+		REMOTE_PORT: 53309
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3b58648>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/osqa/forum/templatetags/extra_tags.py TIME: 2013-01-12 17:21:05,533 MSG: extra_tags.py:render:312 Error in declare tag, when evaluating: questions.children_count('answer')
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:21:05,695 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:21:05,708 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/search/?q=schauze&csrfmiddlewaretoken=81a72712fbee19c54fec822691a370fb&t=question&Submit=suchen&sortieren=trending
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x353dc30>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x353dc70>
+		REMOTE_PORT: 53310
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3b5a5d0>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/osqa/forum/templatetags/extra_tags.py TIME: 2013-01-12 17:21:07,822 MSG: extra_tags.py:render:312 Error in declare tag, when evaluating: questions.children_count('answer')
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:21:07,970 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:21:07,980 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/search/?q=schauze&csrfmiddlewaretoken=81a72712fbee19c54fec822691a370fb&t=question&Submit=suchen&sortieren=neueste
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3a64af0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x3594c30>
+		REMOTE_PORT: 53311
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3b58648>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/osqa/forum/templatetags/extra_tags.py TIME: 2013-01-12 17:21:09,159 MSG: extra_tags.py:render:312 Error in declare tag, when evaluating: questions.children_count('answer')
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:21:09,310 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:21:09,320 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/search/?q=schauze&csrfmiddlewaretoken=81a72712fbee19c54fec822691a370fb&t=question&Submit=suchen&sortieren=Aktiv
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3541c30>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x3541bf0>
+		REMOTE_PORT: 53313
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3b585d0>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:27:36,139 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:27:36,167 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/3/die-is-ein-frage-zu-schauze
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3b6f1f0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x3545bb0>
+		REMOTE_PORT: 53471
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3d03be8>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:27:47,498 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:27:47,504 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: <anonymous>
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; csrftoken=81a72712fbee19c54fec822691a370fb; sessionid=4c94cbbb210c1c82eb21b36328227dc3
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/konto/anmelden/
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x3b70330>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x3b70830>
+		REMOTE_PORT: 53479
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x3cd2030>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 4c94cbbb210c1c82eb21b36328227dc3
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
+/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py TIME: 2013-01-12 17:27:52,698 MSG: base.py:handle_uncaught_exception:209 Internal Server Error: /osqa/m/default/media/js/prettify/prettify.js
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+/opt/bitnami/apps/osqa/forum/views/meta.py TIME: 2013-01-12 17:27:52,712 MSG: meta.py:error_handler:200 
+        error executing request:
+        PATH: /osqa/m/default/media/js/prettify/prettify.js
+        USER: user (1)
+        METHOD: GET
+        POST PARAMETERS:
+        None
+        GET PARAMETERS:
+        None
+        HTTP HEADERS:
+        		mod_wsgi.listener_port: 80
+		HTTP_COOKIE: greeting_set=True; sessionid=7348390aaf8b6be9f1805982ef345f0b; csrftoken=81a72712fbee19c54fec822691a370fb
+		mod_wsgi.listener_host: 
+		SERVER_SOFTWARE: Apache
+		SCRIPT_NAME: /osqa
+		mod_wsgi.handler_script: 
+		SERVER_SIGNATURE: 
+		REQUEST_METHOD: GET
+		PATH_INFO: /m/default/media/js/prettify/prettify.js
+		SERVER_PROTOCOL: HTTP/1.1
+		QUERY_STRING: 
+		HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+		HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+		HTTP_CONNECTION: keep-alive
+		HTTP_REFERER: http://freeduino.dev/osqa/fragen/3/die-is-ein-frage-zu-schauze
+		SERVER_NAME: freeduino.dev
+		REMOTE_ADDR: 192.168.1.5
+		mod_wsgi.request_handler: wsgi-script
+		wsgi.url_scheme: http
+		PATH_TRANSLATED: /opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js
+		SERVER_PORT: 80
+		wsgi.multiprocess: True
+		mod_wsgi.input_chunked: 0
+		SERVER_ADDR: 192.168.1.6
+		DOCUMENT_ROOT: /opt/bitnami/apache2/htdocs
+		mod_wsgi.process_group: 
+		SCRIPT_FILENAME: /opt/bitnami/apps/osqa/scripts/osqa.wsgi
+		SERVER_ADMIN: you@example.com
+		wsgi.input: <mod_wsgi.Input object at 0x24cd3f0>
+		HTTP_HOST: freeduino.dev
+		wsgi.multithread: False
+		mod_wsgi.callable_object: application
+		REQUEST_URI: /osqa/m/default/media/js/prettify/prettify.js
+		HTTP_ACCEPT: */*
+		wsgi.version: (1, 1)
+		GATEWAY_INTERFACE: CGI/1.1
+		wsgi.run_once: False
+		wsgi.errors: <mod_wsgi.Log object at 0x24cdef0>
+		REMOTE_PORT: 53482
+		HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8
+		mod_wsgi.version: (3, 3)
+		mod_wsgi.application_group: localhost|/osqa
+		mod_wsgi.script_reloading: 1
+		wsgi.file_wrapper: <built-in method file_wrapper of mod_wsgi.Adapter object at 0x24d24e0>
+		CSRF_COOKIE: 81a72712fbee19c54fec822691a370fb
+		HTTP_ACCEPT_ENCODING: gzip,deflate,sdch
+
+        COOKIES:
+        		csrftoken: 81a72712fbee19c54fec822691a370fb
+		sessionid: 7348390aaf8b6be9f1805982ef345f0b
+		greeting_set: True
+
+        EXCEPTION INFO:
+        		Traceback (most recent call last):
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+		    response = callback(request, *callback_args, **callback_kwargs)
+		  File "/opt/bitnami/apps/osqa/forum/views/meta.py", line 38, in media
+		    document_root=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'skins').replace('\\', '/'))
+		  File "/opt/bitnami/apps/django/lib/python2.6/site-packages/django/views/static.py", line 59, in serve
+		    response = HttpResponse(open(fullpath, 'rb').read(), mimetype=mimetype)
+		IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/default/media/js/prettify/prettify.js'
+		
+
+        
