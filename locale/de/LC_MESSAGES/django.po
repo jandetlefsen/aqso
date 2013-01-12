@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-12 23:17+0000\n"
+"POT-Creation-Date: 2013-01-12 23:32+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -726,11 +726,11 @@ msgstr ""
 #: forum/actions/user.py:56
 #, python-format
 msgid "%(user)s edited %(hes_or_your)s %(profile_link)s"
-msgstr ""
+msgstr "%(user)s hast %(hes_or_your)s %(profile_link)s bearbeitet"
 
 #: forum/actions/user.py:59
 msgid "profile"
-msgstr "profil"
+msgstr "Profil"
 
 #: forum/actions/user.py:63
 msgid "gave bonus"
@@ -810,11 +810,11 @@ msgstr ""
 #: forum/actions/user.py:188
 #, python-format
 msgid "%(user)s %(were_was)s awarded the %(badge_name)s badge"
-msgstr ""
+msgstr "%(user)s %(were_was)s das %(badge_name)s Abzeichen verliehen"
 
 #: forum/actions/user.py:190
 msgid "were"
-msgstr ""
+msgstr "wurde"
 
 #: forum/actions/user.py:190
 msgid "was"
@@ -1333,6 +1333,8 @@ msgid ""
 "If more than one accpeted answer is allowed, how many can be accepted per "
 "single user per question."
 msgstr ""
+"Wenn mehr als eine akzeptierte Antwort zugelassen ist, wieviele können pro "
+"Benutzer und Frage akzeptiert werden."
 
 #: forum/settings/accept.py:21
 msgid "Users an accept own answer"
@@ -2502,7 +2504,7 @@ msgstr ""
 
 #: forum/settings/users.py:65
 msgid "report posts"
-msgstr ""
+msgstr "Posting melden"
 
 #: forum/settings/users.py:70
 msgid "Don't notify to invalid emails"
@@ -3709,7 +3711,7 @@ msgstr ""
 #: forum/skins/default/templates/markdown_help.html:246
 #: forum/skins/default/templates_old/markdown_help.html:246
 msgid "A Lot More"
-msgstr ""
+msgstr "Viel mehr"
 
 #: forum/skins/default/templates/markdown_help.html:247
 #: forum/skins/default/templates_old/markdown_help.html:247
@@ -4633,7 +4635,7 @@ msgstr "Zeichen minimum"
 #: forum/skins/default/templates/node/comments.html:62
 #: forum/skins/default/templates_old/node/comments.html:60
 msgid "characters left"
-msgstr ""
+msgstr "Zeichen frei"
 
 #: forum/skins/default/templates/node/comments.html:64
 msgid " Comment"
@@ -4675,17 +4677,17 @@ msgstr ""
 msgid ""
 "\n"
 "Would you like to copy the permanent link to your clipboard?\n"
-msgstr ""
+msgstr "nMöchtest Du den statischen Link in Deine Zwischenablage kopieren?\n"
 
 #: forum/skins/default/templates/node/permanent_link.html:10
 #: forum/skins/default/templates_old/node/permanent_link.html:10
 msgid "Permanent link"
-msgstr ""
+msgstr "Statischer Link"
 
 #: forum/skins/default/templates/node/post_controls.html:8
 #: forum/skins/default/templates_old/node/post_controls.html:14
 msgid "more"
-msgstr ""
+msgstr "mehr"
 
 #: forum/skins/default/templates/node/report.html:3
 #: forum/skins/default/templates_old/node/report.html:3
@@ -6589,7 +6591,7 @@ msgstr "Diese Frage hat eine akzeptierte antwort"
 
 #: forum/skins/default/templates_old/sidebar/markdown_help.html:33
 msgid "learn more about Markdown"
-msgstr ""
+msgstr "Erfahre mehr über Markdown"
 
 #: forum/skins/default/templates_old/sidebar/recent_awards.html:15
 msgid "all awards"
@@ -6820,7 +6822,7 @@ msgstr "schliessen"
 
 #: forum/templatetags/node_tags.py:120
 msgid "report"
-msgstr ""
+msgstr "Melden"
 
 #: forum/templatetags/node_tags.py:126
 msgid ""
