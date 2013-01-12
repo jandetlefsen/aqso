@@ -31,7 +31,7 @@
         <ul id="changepw-form" class="form-horizontal-rows">
         {{form.as_ul}}
         </ul>
-        <div class="submit-row"><input type="submit" class="submit" value="{% if has_password %}{% trans "Change password" %}{% endif %}{% if not has_password %}{% trans "Create password" %}{% endif %}" /></div>
+        <div class="submit-row"><input type="submit" class="submit btn" value="{% if has_password %}{% trans "Change password" %}{% endif %}{% if not has_password %}{% trans "Create password" %}{% endif %}" /></div>
 	</form>
 	</div>
 {% endif %}

@@ -5,35 +5,35 @@
 {% load i18n %}
 {% block title %}{% spaceless %}{% trans "Edit user profile" %}{% endspaceless %}{% endblock %}
 {% block forejs %}
-        <script type="text/javascript">google.load("jquery", "1.4.2");google.load("jqueryui", "1.8.1");</script>
+    <script type="text/javascript">google.load("jquery", "1.4.2");google.load("jqueryui", "1.8.1");</script>
 
-        <link rel="stylesheet" href="http://jquery-ui.googlecode.com/svn/tags/latest/themes/base/jquery-ui.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="http://static.jquery.com/ui/css/demo-docs-theme/ui.theme.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="http://jquery-ui.googlecode.com/svn/tags/latest/themes/base/jquery-ui.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="http://static.jquery.com/ui/css/demo-docs-theme/ui.theme.css" type="text/css" media="all" />
 
-        <script type="text/javascript">
-            $().ready(function(){
-                $("#id_birthday").datepicker({
-                    changeMonth: true,
-                    changeYear: true,
-                    dateFormat: 'yy-mm-dd',
-                    minDate: null,
-                    maxDate: '0M 0D',
-                    yearRange: '1920:2010'
-                });
+    <script type="text/javascript">
+        $().ready(function(){
+            $("#id_birthday").datepicker({
+                changeMonth: true,
+                changeYear: true,
+                dateFormat: 'yy-mm-dd',
+                minDate: null,
+                maxDate: '0M 0D',
+                yearRange: '1940:2010'
+            });
 
-                $("#nav_profile").attr('className',"on");
-                $("#cancel").bind('click', function(){history.go(-1);})
-            });     
-        </script>
-        {% block userjs %}
-        {% endblock %}
+            $("#nav_profile").attr('className',"on");
+            $("#cancel").bind('click', function(){history.go(-1);})
+        });     
+    </script>
+    {% block userjs %}
+    {% endblock %}
 {% endblock %}
 {% block content %}
 <div id="main-bar" class="headNormal">
     {{ user.username }} - {% trans "edit profile" %}
 </div>
 <div id="main-body" style="width:100%;padding-top:10px">
-    <form name="" action="{% url edit_user user.id %}" method="post">
+    <form name="" action="{% url edit_user user.id %}" method="post" class="form-horizontal">
         {% csrf_token %}
         <div id="left" style="float:left;width:180px">
             {% if user.email %}
@@ -48,61 +48,72 @@
         </div>
         
         <div id="askform" style="float:right;width:750px;text-align:left;">
-            <h2>{% trans "Registered user" %}</h2>
-            <table class="user-details">
-                <tr>
-                    <th width="100px"></th>
-                    <th></th>
-                </tr>
-                <tr style="height:35px">
-	            	<td>{% trans "Screen Name" %}:</td>
-	            	<td>
-	            	{% if form.username %}
-	            	    {{ form.username }} <span class="form-error"></span> {{ form.username.errors }}
-	            	{% else %}
-	            	    {{ user.username }}
-	            	{% endif %}
-	            	</td>
-	            </tr>
-                
-	            <tr style="height:35px">
-	            	<td>{{ form.email.label_tag }}:</td>
-	            	<td>{{ form.email }} <span class="form-error"></span> {{ form.email.errors }} </td>
-	            </tr>
-                <tr style="height:35px">
-	            	<td></td>
-	            	<td class="title-desc">{{ form.email.help_text }}</td>
-	            </tr>
-                <tr style="height:35px">
-	            	<td>{{ form.realname.label_tag }}:</td>
-	            	<td>{{ form.realname }} <span class="form-error"></span> {{ form.realname.errors }} </td>
-	            </tr>
-                <tr style="height:35px">
-	            	<td>{{ form.website.label_tag }}:</td>
-	            	<td>{{ form.website }} <span class="form-error"></span> {{ form.website.errors }} </td>
-	            </tr>
-                <tr style="height:35px">
-	            	<td>{{ form.city.label_tag }}:</td>
-	            	<td>{{ form.city }} <span class="form-error"></span> {{ form.city.errors }} </td>
-	            </tr>
-                <tr style="height:35px">
-	            	<td>{{ form.birthday.label_tag }}:</td>
-	            	<td>{{ form.birthday }} <span class="form-error"></span> {{ form.birthday.errors }} </td>
-	            </tr>
-                <tr>
-	            	<td style="vertical-align:top">{{ form.about.label_tag }}:</td>
-	            	<td>{{ form.about }} <span class="form-error"></span> {{ form.about.errors }} </td>
-	            </tr>
-	            
-            </table>
-            <div style="margin:30px 0 60px 0">
-                <input type="submit" value="{% trans "Update" %}" class="submit" >
-                <input id="cancel" type="button" value="{% trans "Cancel" %}" class="submit" >
-          
+
+            <h3>{% trans "Registered user" %}</h3>
+
+            <div class="control-group">
+                <label class="control-label" for="username">Screen Name</label>
+                <div class="controls">
+                    {% if form.username %}
+                        {{ form.username }}
+                        <span class="form-error"></span>{{ form.username.errors }}</td>
+                    {% else %}
+                        <input name="username" value="{{ user.username }}" maxlength="75" type="text" id="username" size="35" disabled>     
+                    {% endif %}
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="id_email">Email</label>
+                <div class="controls">
+                    {{ form.email }}
+                    <span class="help-inline">{{ form.email.errors }}</span>
+                    <span class="help-block"><small>{{ form.email.help_text }}</small></span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="id_realname">Richtiger Name</label>
+                <div class="controls">
+                    {{ form.realname }}
+                    <span class="help-inline">{{ form.realname.errors }}</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="id_website">Website</label>
+                <div class="controls">
+                    {{ form.website }}
+                    <span class="help-inline">{{ form.website.errors }}</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="id_city">Wohnort</label>
+                <div class="controls">
+                    {{ form.city }}
+                    <span class="help-inline">{{ form.city.errors }}</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="id_birthday">Geburtsdatum</label>
+                <div class="controls">
+                    {{ form.birthday }}
+                    <span class="help-inline">{{ form.birthday.errors }}</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="id_about">Profil</label>
+                <div class="controls">
+                    {{ form.about }}
+                    <span class="help-inline">{{ form.about.errors }}</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label"></label>
+                <div class="controls">
+                    <input type="submit" value="{% trans "Update" %}" class="submit btn btn-success" >
+                    <input id="cancel" type="button" value="{% trans "Cancel" %}" class="submit btn btn-danger" >
+                </div>
             </div>
         </div>
     </form>
-    
 </div>
 {% endblock %}
 <!-- end user_edit.html -->
