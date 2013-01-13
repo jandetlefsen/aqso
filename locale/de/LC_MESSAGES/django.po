@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-13 06:35+0000\n"
+"POT-Creation-Date: 2013-01-13 07:46+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -97,7 +97,7 @@ msgstr "support"
 msgid "privacy"
 msgstr "Datenschutz"
 
-#: forum/registry.py:73 forum/skins/default/templates/users/edit.html:33
+#: forum/registry.py:73 forum/skins/default/templates/users/edit.html:32
 #: forum/skins/default/templates_old/users/edit.html:33
 msgid "edit profile"
 msgstr "Profil Bearbeiten"
@@ -1932,7 +1932,7 @@ msgstr "Moderations Einstellungen"
 
 #: forum/settings/moderation.py:8
 msgid "Define the moderation workflow of your site"
-msgstr ""
+msgstr "Definiere den Moderations Workflow auf Deiner Seite"
 
 #: forum/settings/moderation.py:11
 msgid "Use canned comments"
@@ -1961,15 +1961,14 @@ msgid ""
 "are accessible through the settings object.</p>\n"
 msgstr ""
 "\n"
-"<p>Erstelle einige vorbereitete Kommentare die für einfachere Moderation "
-"verwendet werden können. Du kannst die {{ post }} und {{ settings }} "
-"Variablen verwenden.</p>\n"
-"<p>Wenn Du den Namen des aktuellen Autor des Postings verwenden möchtest, "
-"kannst Du {{ post.author }} verwenden, für den Titel der Frage benutze "
+"<p>Erstelle einige vorbereitete Kommentare die für eine einfachere "
+"Moderation verwendet werden können. Du kannst die {{ post }} und "
+"{{ settings }} Variablen verwenden.</p>\n"
+"<p>Wenn Du den Namen des aktuellen Autors des Postings verwenden möchtest, "
+"kannst Du {{ post.author }} einfügen, für den Titel der Frage benutze "
 "{{ post.title }}.</p>\n"
-"<p>Um den Title der Applikation zu verwenden, benutze {{ settings."
-"APP_TITLE }}. Alle Einstellungen sind erreichbar durch das 'settings' Objekt."
-"</p>\n"
+"<p>Um den Titel der Applikation zu verwenden, nimm {{ settings.APP_TITLE }}. "
+"Alle Einstellungen sind erreichbar durch das 'settings' Objekt.</p>\n"
 
 #: forum/settings/moderation.py:32
 msgid "Flag Reasons"
@@ -1977,7 +1976,7 @@ msgstr "Grunde zum Flaggen"
 
 #: forum/settings/moderation.py:33
 msgid "Create some flag reasons to use in the flag post popup."
-msgstr ""
+msgstr "Erstelle einige Grunde zum Flaggen die im Flag Popup verwendet werden."
 
 #: forum/settings/moderation.py:41
 msgid "Close Reasons"
@@ -2359,7 +2358,7 @@ msgstr "Benutzer Einstellungen"
 
 #: forum/settings/users.py:7
 msgid "General settings for the OSQA users."
-msgstr ""
+msgstr "Grundeinstellungen fur die OSQA Benutzer"
 
 #: forum/settings/users.py:10
 msgid "Allow negative reputation"
@@ -2514,11 +2513,11 @@ msgstr "Frage Stellen"
 
 #: forum/settings/users.py:65
 msgid "provide answers"
-msgstr ""
+msgstr "Antworten bereitstellen"
 
 #: forum/settings/users.py:65
 msgid "make comments"
-msgstr ""
+msgstr "Kommentare schreiben"
 
 #: forum/settings/users.py:65
 msgid "report posts"
@@ -2581,28 +2580,33 @@ msgid ""
 "Gravatar allows users to self-rate their images so that they can indicate if "
 "an image is appropriate for a certain audience."
 msgstr ""
+"Gravatar erlaubt Benutzern ihre Bilder selber zu bewerten, um "
+"sicherzustellen, dass nur passende Bilder für die richtigen Besucher zu "
+"sehen sind."
 
 #: forum/settings/users.py:99
 msgid ""
 "(mystery-man) a simple, cartoon-style silhouetted outline of a person (does "
 "not vary by email hash)"
 msgstr ""
+"(Mystery-Mann) Ein einfacher, Cartoon-Stil Silhouetten Umriss einer Person "
+"(variiert nicht per E-Mail Hash)"
 
 #: forum/settings/users.py:100
 msgid "a geometric pattern based on an email hash"
-msgstr ""
+msgstr "Ein geometrisches Muster auf Basis des E-Mail Hashes"
 
 #: forum/settings/users.py:101
 msgid "a generated \"monster\" with different colors, faces, etc"
-msgstr ""
+msgstr "Ein generiertes \"Monster\" mit verschiedenen Farben, Gesichtern, etc"
 
 #: forum/settings/users.py:102
 msgid "generated faces with differing features and backgrounds"
-msgstr ""
+msgstr "Erzeugte Gesichter mit verschiedenen Merkmalen und Hintergründen"
 
 #: forum/settings/users.py:106
 msgid "Gravatar default"
-msgstr ""
+msgstr "Gravatar Standard"
 
 #: forum/settings/users.py:107
 msgid ""
@@ -2705,7 +2709,7 @@ msgstr ""
 
 #: forum/settings/voting.py:4
 msgid "Voting rules"
-msgstr ""
+msgstr "Regeln zur Abstimmung"
 
 #: forum/settings/voting.py:4
 msgid "Configure the voting rules on your site."
@@ -3043,7 +3047,7 @@ msgstr ""
 #: forum/skins/default/templates/question_edit.html:153
 #: forum/skins/default/templates/question_retag.html:63
 #: forum/skins/default/templates/reopen.html:30
-#: forum/skins/default/templates/users/edit.html:112
+#: forum/skins/default/templates/users/edit.html:106
 #: forum/skins/default/templates_old/answer_edit.html:103
 #: forum/skins/default/templates_old/base_content.html:44
 #: forum/skins/default/templates_old/close.html:30
@@ -5285,7 +5289,7 @@ msgstr "letzte Aktivitäten"
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:29
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:29
 msgid "Administration Area"
-msgstr ""
+msgstr "Administrations Bereich"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:33
 #: forum/skins/default/templates_old/osqaadmin/djstyle_base.html:33
@@ -6131,24 +6135,7 @@ msgstr "Populäre Tags"
 msgid "Edit user profile"
 msgstr "Benutzer Profil bearbeiten"
 
-#: forum/skins/default/templates/users/edit.html:46
-#: forum/skins/default/templates_old/users/edit.html:46
-msgid "image associated with your email address"
-msgstr ""
-
-#: forum/skins/default/templates/users/edit.html:46
-#: forum/skins/default/templates_old/users/edit.html:46
-msgid "gravatar"
-msgstr ""
-
-#: forum/skins/default/templates/users/edit.html:52
-#: forum/skins/default/templates/users/info.html:24
-#: forum/skins/default/templates_old/users/edit.html:51
-#: forum/skins/default/templates_old/users/info.html:39
-msgid "Registered user"
-msgstr "Registrierter Benutzer"
-
-#: forum/skins/default/templates/users/edit.html:111
+#: forum/skins/default/templates/users/edit.html:105
 #: forum/skins/default/templates/users/subscriptions_settings.html:105
 #: forum/skins/default/templates_old/users/edit.html:99
 #: forum/skins/default/templates_old/users/subscriptions_settings.html:105
@@ -6167,6 +6154,12 @@ msgstr "Reputation"
 #: forum/skins/default/templates_old/users/info.html:28
 msgid "Suspended"
 msgstr ""
+
+#: forum/skins/default/templates/users/info.html:24
+#: forum/skins/default/templates_old/users/edit.html:51
+#: forum/skins/default/templates_old/users/info.html:39
+msgid "Registered user"
+msgstr "Registrierter Benutzer"
 
 #: forum/skins/default/templates/users/info.html:29
 msgid "Real Name"
@@ -6619,6 +6612,14 @@ msgstr "Erfahre mehr über Markdown"
 
 #: forum/skins/default/templates_old/sidebar/recent_awards.html:15
 msgid "all awards"
+msgstr ""
+
+#: forum/skins/default/templates_old/users/edit.html:46
+msgid "image associated with your email address"
+msgstr ""
+
+#: forum/skins/default/templates_old/users/edit.html:46
+msgid "gravatar"
 msgstr ""
 
 #: forum/skins/default/templates_old/users/edit.html:58
