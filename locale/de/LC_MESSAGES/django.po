@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-13 00:43+0000\n"
+"POT-Creation-Date: 2013-01-13 00:54+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -4619,7 +4619,7 @@ msgstr ""
 #: forum/skins/default/templates_old/node/comments.html:42
 #, python-format
 msgid "showing %(showing)s of %(total)s"
-msgstr ""
+msgstr "zeige %(showing)s von %(total)s"
 
 #: forum/skins/default/templates/node/comments.html:44
 #: forum/skins/default/templates_old/node/comments.html:44
@@ -8152,7 +8152,7 @@ msgstr ""
 
 #: forum_modules/exporter/exporter.py:183
 msgid "Writing inf file."
-msgstr ""
+msgstr "Schreibe inf Datei."
 
 #: forum_modules/exporter/exporter.py:210
 msgid "Saving backup file"
@@ -8161,7 +8161,7 @@ msgstr ""
 #: forum_modules/exporter/exporter.py:242
 #: forum_modules/exporter/importer.py:235
 msgid "Queued"
-msgstr ""
+msgstr "Wartend"
 
 #: forum_modules/exporter/exporter.py:245
 #: forum_modules/exporter/importer.py:238
@@ -8179,12 +8179,12 @@ msgstr ""
 
 #: forum_modules/exporter/exporter.py:271
 msgid "Writing temp file"
-msgstr ""
+msgstr "Schreibe temp Datei"
 
 #: forum_modules/exporter/exporter.py:272
 #, python-format
 msgid "Writing %s temp file"
-msgstr ""
+msgstr "Schreibe %s temp Datei"
 
 #: forum_modules/exporter/exporter.py:277
 #: forum_modules/exporter/exporter.py:295
@@ -8204,16 +8204,16 @@ msgstr ""
 #: forum_modules/exporter/exporter.py:460
 #: forum_modules/exporter/importer.py:543
 msgid "Actions"
-msgstr ""
+msgstr "Aktionen"
 
 #: forum_modules/exporter/exporter.py:506
 #: forum_modules/exporter/importer.py:632
 msgid "Awards"
-msgstr ""
+msgstr "Abzeichen"
 
 #: forum_modules/exporter/exporter.py:514
 msgid "Settings"
-msgstr ""
+msgstr "Einstellungen"
 
 #: forum_modules/exporter/forms.py:5
 msgid "tar.gz"
@@ -8225,7 +8225,7 @@ msgstr ""
 
 #: forum_modules/exporter/forms.py:11
 msgid "File format"
-msgstr ""
+msgstr "Datei Format"
 
 #: forum_modules/exporter/forms.py:11
 msgid "File format of the compressed backup"
@@ -8312,7 +8312,7 @@ msgstr "XML Daten Exporter"
 #: forum_modules/exporter/templates/exporter.html:9
 #: forum_modules/exporter/templates/running.html:9
 msgid "Export database to XML format"
-msgstr ""
+msgstr "Datenbank im XML format exportieren"
 
 #: forum_modules/exporter/templates/exporter.html:14
 msgid "Available backups"
@@ -8353,7 +8353,7 @@ msgstr ""
 
 #: forum_modules/exporter/templates/running.html:105
 msgid "An error has occurred during the export proccess"
-msgstr ""
+msgstr "Ein Fehler ist während des Export Prozesses aufgetreten"
 
 #: forum_modules/exporter/templates/running.html:107
 msgid "An error has occurred during the import proccess"
@@ -8361,7 +8361,7 @@ msgstr ""
 
 #: forum_modules/exporter/templates/running.html:110
 msgid "Please check the log file for a full stack trace."
-msgstr ""
+msgstr "Bitte überprüfe die Log Datei für einen kompletten Stack Trace."
 
 #: forum_modules/exporter/templates/running.html:135
 msgid "Please wait while we prepare your backup file to download."
@@ -8384,11 +8384,11 @@ msgstr "Download Datei"
 
 #: forum_modules/exporter/templates/running.html:148
 msgid "Total progress"
-msgstr ""
+msgstr "Kompletter Fortschritt"
 
 #: forum_modules/exporter/templates/running.html:158
 msgid " of "
-msgstr ""
+msgstr "von"
 
 #: forum_modules/facebookauth/authentication.py:59
 msgid ""
