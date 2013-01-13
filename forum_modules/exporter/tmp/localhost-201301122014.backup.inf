@@ -1,0 +1,21 @@
+[Meta]
+users = 2
+tags = 10
+settings = 172
+overall = 211
+actions = 20
+awards = 3
+nodes = 4
+
+[Options]
+with-upfiles = True
+anon-data = False
+with-skins = False
+
+[DateAndAuthor]
+started = 2013-01-12 20:14:51
+finished = 2013-01-12 20:14:58
+author = 1
+site = http://192.168.1.6/osqa
+file-name = localhost-201301122014.tar.gz
+

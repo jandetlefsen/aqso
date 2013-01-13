@@ -1232,4 +1232,10 @@ Disallow: /*sort=
             </value>
         </value>
     </setting>
+    <setting>
+        <key>UPFILES_FOLDER</key>
+        <value>
+            <value type="str">/opt/bitnami/apps/osqa/forum/upfiles</value>
+        </value>
+    </setting>
 </settings>

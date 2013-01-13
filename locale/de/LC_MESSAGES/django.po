@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-13 01:13+0000\n"
+"POT-Creation-Date: 2013-01-13 06:35+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1936,17 +1936,19 @@ msgstr ""
 
 #: forum/settings/moderation.py:11
 msgid "Use canned comments"
-msgstr ""
+msgstr "Vorbereitete Antworten verwenden"
 
 #: forum/settings/moderation.py:12
 msgid ""
 "If you check, the canned comments feature will be activated, allowing "
 "moderators to use canned patterns for their comments."
 msgstr ""
+"Wenn diese Option ausgefählt ist, werden vorbereitete Kommentare aktiviert. "
+"Dies erlaubt Moderatoren vorbereitete Muster für Kommentare zu verwenden."
 
 #: forum/settings/moderation.py:20
 msgid "Canned comments"
-msgstr ""
+msgstr "Vorbereitete Antworten"
 
 #: forum/settings/moderation.py:21
 msgid ""
@@ -1958,10 +1960,20 @@ msgid ""
 "<p>To get the application title use {{ settings.APP_TITLE }}. All settings "
 "are accessible through the settings object.</p>\n"
 msgstr ""
+"\n"
+"<p>Erstelle einige vorbereitete Kommentare die für einfachere Moderation "
+"verwendet werden können. Du kannst die {{ post }} und {{ settings }} "
+"Variablen verwenden.</p>\n"
+"<p>Wenn Du den Namen des aktuellen Autor des Postings verwenden möchtest, "
+"kannst Du {{ post.author }} verwenden, für den Titel der Frage benutze "
+"{{ post.title }}.</p>\n"
+"<p>Um den Title der Applikation zu verwenden, benutze {{ settings."
+"APP_TITLE }}. Alle Einstellungen sind erreichbar durch das 'settings' Objekt."
+"</p>\n"
 
 #: forum/settings/moderation.py:32
 msgid "Flag Reasons"
-msgstr ""
+msgstr "Grunde zum Flaggen"
 
 #: forum/settings/moderation.py:33
 msgid "Create some flag reasons to use in the flag post popup."
@@ -1969,11 +1981,13 @@ msgstr ""
 
 #: forum/settings/moderation.py:41
 msgid "Close Reasons"
-msgstr ""
+msgstr "Gründe zum Schliessen"
 
 #: forum/settings/moderation.py:42
 msgid "Create some close reasons to use in the close question popup."
 msgstr ""
+"Erstellen Sie einige Gründen zum Schliessen von Fragen die im Popup Fenster "
+"zu sehen sind."
 
 #: forum/settings/repgain.py:4
 msgid "Reputation gains and losses config"
@@ -4015,7 +4029,7 @@ msgstr ""
 #: forum/skins/default/templates_old/question_list/item.html:15
 #: forum/views/users.py:54
 msgid "answers"
-msgstr "antworten"
+msgstr "Antworten"
 
 #: forum/skins/default/templates/question_summary_list_roll.html:14
 #: forum/skins/default/templates/question_list/item.html:6
@@ -5128,7 +5142,7 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/createuser.html:10
 #: forum/skins/default/templates_old/osqaadmin/createuser.html:10
 msgid "Quick creation of a new user"
-msgstr ""
+msgstr "Express Benutzer Account erstellung"
 
 #: forum/skins/default/templates/osqaadmin/createuser.html:18
 #: forum/skins/default/templates/osqaadmin/edit_page.html:26
@@ -7347,7 +7361,7 @@ msgstr ""
 
 #: forum/views/readers.py:56 forum/views/users.py:52
 msgid "newest answers"
-msgstr "neuste antworten"
+msgstr "neueste Antworten"
 
 #: forum/views/readers.py:56 forum/views/users.py:52
 msgid "newest answers will be shown first"
