@@ -1,0 +1,1235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<settings>
+    <setting>
+        <key>FORM_EMPTY_QUESTION_BODY</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_MIN_NUMBER_OF_TAGS</key>
+        <value>
+            <value type="int">1</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_MAX_NUMBER_OF_TAGS</key>
+        <value>
+            <value type="int">5</value>
+        </value>
+    </setting>
+    <setting>
+        <key>MIN_USERNAME_LENGTH</key>
+        <value>
+            <value type="int">3</value>
+        </value>
+    </setting>
+    <setting>
+        <key>DISCIPLINED_MIN_SCORE</key>
+        <value>
+            <value type="int">3</value>
+        </value>
+    </setting>
+    <setting>
+        <key>PEER_PRESSURE_MAX_SCORE</key>
+        <value>
+            <value type="int">-3</value>
+        </value>
+    </setting>
+    <setting>
+        <key>CIVIC_DUTY_VOTES</key>
+        <value>
+            <value type="int">300</value>
+        </value>
+    </setting>
+    <setting>
+        <key>PUNDIT_COMMENT_COUNT</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SELF_LEARNER_UP_VOTES</key>
+        <value>
+            <value type="int">3</value>
+        </value>
+    </setting>
+    <setting>
+        <key>STRUNK_AND_WHITE_EDITS</key>
+        <value>
+            <value type="int">100</value>
+        </value>
+    </setting>
+    <setting>
+        <key>ENLIGHTENED_UP_VOTES</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>GURU_UP_VOTES</key>
+        <value>
+            <value type="int">40</value>
+        </value>
+    </setting>
+    <setting>
+        <key>NECROMANCER_DIF_DAYS</key>
+        <value>
+            <value type="int">60</value>
+        </value>
+    </setting>
+    <setting>
+        <key>NECROMANCER_UP_VOTES</key>
+        <value>
+            <value type="int">5</value>
+        </value>
+    </setting>
+    <setting>
+        <key>TAXONOMIST_USE_COUNT</key>
+        <value>
+            <value type="int">50</value>
+        </value>
+    </setting>
+    <setting>
+        <key>PG_FTSTRIGGERS_VERSION</key>
+        <value>
+            <value type="int">11</value>
+        </value>
+    </setting>
+    <setting>
+        <key>INCLUDE_ID_IN_USER_URLS</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>STORE_GREETING_IN_COOKIE</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>MAINTAINANCE_MODE</key>
+        <value />
+    </setting>
+    <setting>
+        <key>APP_SHORT_NAME</key>
+        <value>
+            <value type="str">OSQA</value>
+        </value>
+    </setting>
+    <setting>
+        <key>APP_DESCRIPTION</key>
+        <value>
+            <value type="unicode">Ask and answer questions.</value>
+        </value>
+    </setting>
+    <setting>
+        <key>APP_KEYWORDS</key>
+        <value>
+            <value type="unicode">OSQA,CNPROG,forum,community</value>
+        </value>
+    </setting>
+    <setting>
+        <key>GOOGLE_SITEMAP_CODE</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>APP_FAVICON</key>
+        <value>
+            <value type="str">/m/default/media/images/favicon.ico</value>
+        </value>
+    </setting>
+    <setting>
+        <key>USE_CUSTOM_CSS</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>USE_CUSTOM_HEAD</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>USE_CUSTOM_HEADER</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>APP_LOGO</key>
+        <value>
+            <value type="str">/upfiles/logo.png</value>
+        </value>
+    </setting>
+    <setting>
+        <key>APP_TITLE</key>
+        <value>
+            <value type="unicode">OSQA: Open Source Q&amp;A Forum</value>
+        </value>
+    </setting>
+    <setting>
+        <key>USE_ANNOUNCEMENT_BAR</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>USE_CUSTOM_FOOTER</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SUPPORT_URL</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>CONTACT_URL</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>GOOGLE_ANALYTICS_KEY</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>RESERVED_USERNAMES</key>
+        <value>
+            <value type="list">
+                <item>
+                    <value type="unicode">fuck</value>
+                </item>
+                <item>
+                    <value type="unicode">shit</value>
+                </item>
+                <item>
+                    <value type="unicode">ass</value>
+                </item>
+                <item>
+                    <value type="unicode">sex</value>
+                </item>
+                <item>
+                    <value type="unicode">add</value>
+                </item>
+                <item>
+                    <value type="unicode">edit</value>
+                </item>
+                <item>
+                    <value type="unicode">save</value>
+                </item>
+                <item>
+                    <value type="unicode">delete</value>
+                </item>
+                <item>
+                    <value type="unicode">manage</value>
+                </item>
+                <item>
+                    <value type="unicode">update</value>
+                </item>
+                <item>
+                    <value type="unicode">remove</value>
+                </item>
+                <item>
+                    <value type="unicode">new</value>
+                </item>
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_UNIQUE</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>ALLOW_NEGATIVE_REPUTATION</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>INITIAL_REP</key>
+        <value>
+            <value type="int">1</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_SUBJECT_PREFIX</key>
+        <value>
+            <value type="str">[Freeduino]</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_PARAGRAPH_STYLE</key>
+        <value>
+            <value type="str">color:#333333;font-family:'helvetica neue', arial, Helvetica, sans-serif;line-height:18px;font-size:14px;margin-top:10px;</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_ANCHOR_STYLE</key>
+        <value>
+            <value type="str">text-decoration:none;color:#3060a8;font-weight:bold;</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_BORDER_COLOR</key>
+        <value>
+            <value type="str">#e5ebf8</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_FOOTER_TEXT</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_HOST</key>
+        <value>
+            <value type="str">imap.gmail.com</value>
+        </value>
+    </setting>
+    <setting>
+        <key>DONT_NOTIFY_UNVALIDATED</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>ALLOW_UNICODE_IN_SLUGS</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SHOW_WELCOME_BOX</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>APP_INTRO</key>
+        <value>
+            <value type="unicode">&lt;p&gt;Stelle eine Frage und beantworte Sie fuer eine bessere Welt!&lt;/p&gt;</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SIDEBAR_UPPER_RENDER_MODE</key>
+        <value>
+            <value type="str">markdown</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SIDEBAR_UPPER_TEXT</key>
+        <value>
+            <value type="unicode">## [Host OSQA in the Cloud] [1]
+
+Host your own OSQA environment in the cloud for free using  [**BitNami Cloud Hosting**][1] and the Amazon Cloud Free tier.
+
+[1]: http://bitnami.org/cloud?utm_source=bitnami&amp;utm_medium=application&amp;utm_campaign=osqa
+
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>SIDEBAR_UPPER_DONT_WRAP</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SIDEBAR_UPPER_SHOW</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SIDEBAR_LOWER_RENDER_MODE</key>
+        <value>
+            <value type="str">markdown</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SIDEBAR_LOWER_TEXT</key>
+        <value>
+            <value type="unicode">## Learn more about OSQA
+
+The [**OSQA website**](http://www.osqa.net/) and [**OSQA wiki**](http://wiki.osqa.net/) are great resources to help you learn more about the OSQA open source Q&amp;A system. [**Join the OSQA chat!**](http://meta.osqa.net/question/79/is-there-an-online-chat-room-or-irc-channel-for-osqa#302)
+
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>SIDEBAR_LOWER_DONT_WRAP</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SIDEBAR_LOWER_SHOW</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>RECENT_TAGS_SIZE</key>
+        <value>
+            <value type="int">25</value>
+        </value>
+    </setting>
+    <setting>
+        <key>RECENT_AWARD_SIZE</key>
+        <value>
+            <value type="int">15</value>
+        </value>
+    </setting>
+    <setting>
+        <key>LATEST_UPDATES_DATETIME</key>
+        <value>
+            <value type="unknown">2013-01-12 19:09:17.041674</value>
+        </value>
+    </setting>
+    <setting>
+        <key>UPDATE_MESSAGES_XML</key>
+        <value>
+            <value type="str">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;messages&gt;
+&lt;/messages&gt;</value>
+        </value>
+    </setting>
+    <setting>
+        <key>CAPTCHA_IF_REP_LESS_THAN</key>
+        <value>
+            <value type="int">0</value>
+        </value>
+    </setting>
+    <setting>
+        <key>WIKI_ON</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REQUIRE_EMAIL_VALIDATION_TO</key>
+        <value>
+            <value type="list" />
+        </value>
+    </setting>
+    <setting>
+        <key>QUESTION_TITLE_TIPS</key>
+        <value>
+            <value type="unicode"> - **ask a question relevant to the |APP_TITLE| community**
+ - the title must be in the form of a question
+ - provide enough details
+ - be clear and concise
+
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>QUESTION_TAG_TIPS</key>
+        <value>
+            <value type="unicode"> - Tags are words that will tell others what this question is about.
+ - They will help other find your question.
+ - A question can have up to |FORM_MAX_NUMBER_OF_TAGS| tags, but it must have at least |FORM_MIN_NUMBER_OF_TAGS|.
+
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>WORDPRESS_API_KEY</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_MIN_QUESTION_TITLE</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_MIN_QUESTION_BODY</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_MAX_LENGTH_OF_TAG</key>
+        <value>
+            <value type="int">20</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_MIN_LENGTH_OF_TAG</key>
+        <value>
+            <value type="int">1</value>
+        </value>
+    </setting>
+    <setting>
+        <key>LIMIT_TAG_CREATION</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FB_API_KEY</key>
+        <value>
+            <value type="str">218141679175</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SHOW_INTERESTING_TAGS_BOX</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>GRAVATAR_DEFAULT_IMAGE</key>
+        <value>
+            <value type="str">wavatar</value>
+        </value>
+    </setting>
+    <setting>
+        <key>GRAVATAR_ALLOWED_RATING</key>
+        <value>
+            <value type="str">r</value>
+        </value>
+    </setting>
+    <setting>
+        <key>TRUNCATE_USERNAMES_LONGER_THAN</key>
+        <value>
+            <value type="int">15</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SHOW_STATUS_DIAMONDS</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>USER_REPUTATION_TO_MAX_VOTES</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>MAX_VOTES_PER_DAY</key>
+        <value>
+            <value type="int">30</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FAMOUS_QUESTION_VIEWS</key>
+        <value>
+            <value type="int">10000</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FAVORITE_QUESTION_FAVS</key>
+        <value>
+            <value type="int">25</value>
+        </value>
+    </setting>
+    <setting>
+        <key>GOOD_ANSWER_VOTES_UP</key>
+        <value>
+            <value type="int">25</value>
+        </value>
+    </setting>
+    <setting>
+        <key>GOOD_QUESTION_VOTES_UP</key>
+        <value>
+            <value type="int">25</value>
+        </value>
+    </setting>
+    <setting>
+        <key>GREAT_ANSWER_VOTES_UP</key>
+        <value>
+            <value type="int">100</value>
+        </value>
+    </setting>
+    <setting>
+        <key>GREAT_QUESTION_VOTES_UP</key>
+        <value>
+            <value type="int">100</value>
+        </value>
+    </setting>
+    <setting>
+        <key>NICE_ANSWER_VOTES_UP</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>NICE_QUESTION_VOTES_UP</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>NOTABLE_QUESTION_VIEWS</key>
+        <value>
+            <value type="int">2500</value>
+        </value>
+    </setting>
+    <setting>
+        <key>POPULAR_QUESTION_VIEWS</key>
+        <value>
+            <value type="int">1000</value>
+        </value>
+    </setting>
+    <setting>
+        <key>STELLAR_QUESTION_FAVS</key>
+        <value>
+            <value type="int">100</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FAQ_PAGE_TEXT</key>
+        <value>
+            <value type="unicode">
+**Please customize this text in the administration area**
+
+**Frequently Asked Questions (FAQ)**
+
+**How is a Question/Answer community different from a typical forum?**
+
+A Question/Answer community is different from a typical forum because it focuses on finding answers to the questions of its members.  A typical forum, by contrast, operates more like a discussion group, where people are free to give their opinions and topics tend to be more subjective.
+
+By keeping a laser focus on questions and answers, this community ensures that finding answers to existing questions - and getting answers to new questions - can be done without any distractions.
+
+**What kinds of questions can I ask here?**
+
+Most importantly - questions should be relevant to this community. Before you ask, please make sure to search for a similar question. You can search for questions by their title, content, or tags.
+
+**What kinds of questions should be avoided?**
+
+Please avoid asking questions that are not relevant to this community, are too subjective or argumentative.
+
+**What should I avoid in my answers?**
+
+OSQA: Open Source Q&amp;A Forum is a question and answer site - it is not a discussion group. Please avoid holding debates in your answers as they tend to dilute the essense of questions and answers. For brief discussions please use commenting facility.
+
+** Why are email notifications so important? **
+
+Email notifications are the bedrock of a successful question and answer community. These notifications allow community members to be notified of important events, such as:
+
+* When their questions have been answered
+* When one of their posts is commented on by another member
+* When other members post new questions, answers, or comments in their area of interest
+
+The success of the community relies upon community member involvement, and members are much more likely to become involved, active participants on the site when they're notified of interesting developments.  That is why this community considers a valid email address as a requirement for participating in the community and using this site.
+
+If you're already a member of this community and haven't validated your email address, you can do so [here](/account/send-validation/ "Validate Email Address").  If you aren't yet a member of this community, join up by [creating a new account](/account/local/register/ "Create a new account").
+
+ **Who moderates this community?**
+
+The short answer is: you. This website is moderated by the users. The community features a karma system that allows users to earn rights to perform a variety of moderation tasks.
+
+**How does the karma system work?**
+
+When a question or answer is upvoted, the user who posted them will gain some points, which are called "karma points". These points serve as a rough measure of the community trust in him/her. Various moderation tasks are gradually assigned to the users based on those points.
+
+For example, if you ask an interesting question or give a helpful answer, your input will be upvoted. On the other hand if the answer is misleading, it will be downvoted. Each vote in favor will generate |REP_GAIN_BY_UPVOTED| points, each vote against will subtract |REP_LOST_BY_DOWNVOTED| points. There is a limit of 200 points that can be accumulated per question or answer. The table below explains karma requirements for each type of moderation task.
+
+* add comments -&gt;  |REP_TO_COMMENT|
+* delete comments -&gt; |REP_TO_DELETE_COMMENTS|
+* close own questions -&gt; |REP_TO_CLOSE_OWN|
+* reopen own questions -&gt; |REP_TO_REOPEN_OWN|
+* retag questions -&gt; |REP_TO_RETAG|
+* edit any answer -&gt; |REP_TO_EDIT_OTHERS|
+* open any closed question -&gt; |REP_TO_CLOSE_OTHERS|
+* delete any comment -&gt; |REP_TO_DELETE_COMMENTS|
+
+**What is a gravatar?**
+
+Gravatar means globally recognized avatar - your unique avatar image associated with your email address. It's simply a picture that shows next to your posts on the websites that support gravatar protocol. The default gravatar appears as a square filled with a snowflake-like figure. You can set your image at gravatar.com
+
+**To participate in this community, do I need to create new account?**
+
+No, you don't have to. You can login through any service that supports OpenID, e.g. Google, Yahoo, AOL, etc. [Login now!](/account/signin/ "Login")
+
+**Why can other people can edit my questions/answers?**
+
+Allowing experienced members of this community to curate the questions and answers improves the overall quality of the knowledge base content. If this approach is not for you, we respect your choice.
+
+**Still have questions?**
+
+Please ask your question, help make our community better!
+
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_GAIN_BY_UPVOTED</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_LOST_BY_DOWNVOTED</key>
+        <value>
+            <value type="int">2</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_TO_COMMENT</key>
+        <value>
+            <value type="int">50</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_TO_DELETE_COMMENTS</key>
+        <value>
+            <value type="int">2000</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_TO_CLOSE_OWN</key>
+        <value>
+            <value type="int">250</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_TO_REOPEN_OWN</key>
+        <value>
+            <value type="int">500</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_TO_RETAG</key>
+        <value>
+            <value type="int">500</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_TO_EDIT_OTHERS</key>
+        <value>
+            <value type="int">2000</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_TO_CLOSE_OTHERS</key>
+        <value>
+            <value type="int">3000</value>
+        </value>
+    </setting>
+    <setting>
+        <key>ABOUT_PAGE_TEXT</key>
+        <value>
+            <value type="unicode">
+**Please customize this text in the administration area**
+
+Here you can **ask** and **answer** questions, **comment**
+and **vote** for the questions of others and their answers. Both questions and answers
+**can be revised** and improved. Questions can be **tagged** with
+the relevant keywords to simplify future access and organize the accumulated material.
+
+This &lt;span class="orange"&gt;Q&amp;amp;A&lt;/span&gt; site is moderated by its members, hopefully - including yourself!
+Moderation rights are gradually assigned to the site users based on the accumulated "**karma**"
+points. These points are added to the users account when others vote for his/her questions or answers.
+These points (very) roughly reflect the level of trust of the community.
+
+No points are necessary to ask or answer the questions - so please - join us!
+
+If you would like to find out more about this site - please see the **frequently asked questions** page.
+
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>HOLD_PENDING_POSTS_MINUTES</key>
+        <value>
+            <value type="int">120</value>
+        </value>
+    </setting>
+    <setting>
+        <key>WARN_PENDING_POSTS_MINUTES</key>
+        <value>
+            <value type="int">15</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SUMMARY_LENGTH</key>
+        <value>
+            <value type="int">300</value>
+        </value>
+    </setting>
+    <setting>
+        <key>LIMIT_RELATED_TAGS</key>
+        <value>
+            <value type="int">0</value>
+        </value>
+    </setting>
+    <setting>
+        <key>ONLINE_USERS</key>
+        <value>
+            <value type="dict" />
+        </value>
+    </setting>
+    <setting>
+        <key>STATIC_PAGE_REGISTRY</key>
+        <value>
+            <value type="dict" />
+        </value>
+    </setting>
+    <setting>
+        <key>SHOW_TAGS_IN_A_CLOUD</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>TAGS_CLOUD_MIN_OCCURS</key>
+        <value>
+            <value type="int">1</value>
+        </value>
+    </setting>
+    <setting>
+        <key>TAGS_CLOUD_MAX_OCCURS</key>
+        <value>
+            <value type="int">35</value>
+        </value>
+    </setting>
+    <setting>
+        <key>TAGS_CLOUD_MIN_FONT_SIZE</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>TAGS_CLOUD_MAX_FONT_SIZE</key>
+        <value>
+            <value type="int">25</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMBED_YOUTUBE_VIDEOS</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SHOW_USER_ACCEPT_RATE</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>CANNED_COMMENTS</key>
+        <value>
+            <value type="list">
+                <item>
+                    <value type="str">We require all postings to have a clear, specific QUESTION in the title field. Please edit this right away to rephrase the title as a proper question.
+                    </value>
+                </item>
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>SITE_KEY</key>
+        <value>
+            <value type="str">Z2XR-hClW-yAm5-aZSc</value>
+        </value>
+    </setting>
+    <setting>
+        <key>MERGE_MAPPINGS</key>
+        <value>
+            <value type="dict" />
+        </value>
+    </setting>
+    <setting>
+        <key>FORCE_SINGLE_URL</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>DISABLE_ACCEPTING_FEATURE</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_HOST_USER</key>
+        <value>
+            <value type="str">lopsta.ecommerce@gmail.com</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_HOST_PASSWORD</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>SETTINGS_PACK</key>
+        <value>
+            <value type="str">default</value>
+        </value>
+    </setting>
+    <setting>
+        <key>DJSTYLE_ADMIN_INTERFACE</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>APP_COPYRIGHT</key>
+        <value>
+            <value type="unicode">Copyright OSQA, 2010. Some rights reserved under creative commons license.</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EDITABLE_SCREEN_NAME</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>TRUNCATE_LONG_USERNAMES</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>TEST_EMAIL_SETTINGS</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_PORT</key>
+        <value>
+            <value type="int">993</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EMAIL_USE_TLS</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>DEFAULT_FROM_EMAIL</key>
+        <value>
+            <value type="str">lopsta.ecommerce@gmail.com</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SEND_DIGEST_ONLY_TO_ACTIVE_USERS</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>SEND_DIGEST_ONLY_TO_VALIDATED_USERS</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_MIN_COMMENT_BODY</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_MAX_COMMENT_BODY</key>
+        <value>
+            <value type="int">600</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_ALLOW_MARKDOWN_IN_COMMENTS</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FORM_GRAVATAR_IN_COMMENTS</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>MAX_REP_BY_UPVOTE_DAY</key>
+        <value>
+            <value type="int">200</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_GAIN_BY_EMAIL_VALIDATION</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_LOST_BY_DOWNVOTING</key>
+        <value>
+            <value type="int">1</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_GAIN_BY_ACCEPTED</key>
+        <value>
+            <value type="int">15</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_GAIN_BY_ACCEPTING</key>
+        <value>
+            <value type="int">2</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_LOST_BY_FLAGGED</key>
+        <value>
+            <value type="int">2</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_LOST_BY_FLAGGED_3_TIMES</key>
+        <value>
+            <value type="int">30</value>
+        </value>
+    </setting>
+    <setting>
+        <key>REP_LOST_BY_FLAGGED_5_TIMES</key>
+        <value>
+            <value type="int">100</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FB_APP_SECRET</key>
+        <value>
+            <value type="str">f55ce61676b6439e80bcf764525a3a0b</value>
+        </value>
+    </setting>
+    <setting>
+        <key>TWITTER_CONSUMER_KEY</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>TWITTER_CONSUMER_SECRET</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>TWITTER_AUTO_CALLBACK_REDIRECT</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>UPDATE_LATEST_ACTIVITY_ON_TAG_EDIT</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>MAXIMUM_ACCEPTED_ANSWERS</key>
+        <value>
+            <value type="int">1</value>
+        </value>
+    </setting>
+    <setting>
+        <key>MAXIMUM_ACCEPTED_PER_USER</key>
+        <value>
+            <value type="int">1</value>
+        </value>
+    </setting>
+    <setting>
+        <key>USERS_CAN_ACCEPT_OWN</key>
+        <value>
+            <value type="bool">False</value>
+        </value>
+    </setting>
+    <setting>
+        <key>CUSTOM_HEADER</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>CUSTOM_HEADER_RENDER_MODE</key>
+        <value>
+            <value type="str">markdown</value>
+        </value>
+    </setting>
+    <setting>
+        <key>ANNOUNCEMENT_BAR</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>ANNOUNCEMENT_BAR_RENDER_MODE</key>
+        <value>
+            <value type="str">markdown</value>
+        </value>
+    </setting>
+    <setting>
+        <key>CUSTOM_FOOTER</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>CUSTOM_FOOTER_RENDER_MODE</key>
+        <value>
+            <value type="str">markdown</value>
+        </value>
+    </setting>
+    <setting>
+        <key>CUSTOM_FOOTER_MODE</key>
+        <value>
+            <value type="str">replace</value>
+        </value>
+    </setting>
+    <setting>
+        <key>USE_CANNED_COMMENTS</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>FLAG_TYPES</key>
+        <value>
+            <value type="list">
+                <item>
+                    <value type="str">Spam</value>
+                </item>
+                <item>
+                    <value type="str">Advertising</value>
+                </item>
+                <item>
+                    <value type="str">Offensive, Abusive, or Inappropriate</value>
+                </item>
+                <item>
+                    <value type="str">Content violates terms of use</value>
+                </item>
+                <item>
+                    <value type="str">Copyright Violation</value>
+                </item>
+                <item>
+                    <value type="str">Misleading</value>
+                </item>
+                <item>
+                    <value type="str">Someone is not being nice</value>
+                </item>
+                <item>
+                    <value type="str">Not relevant/off-topic</value>
+                </item>
+                <item>
+                    <value type="str">Other</value>
+                </item>
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>CLOSE_TYPES</key>
+        <value>
+            <value type="list">
+                <item>
+                    <value type="str">Duplicate Question</value>
+                </item>
+                <item>
+                    <value type="str">Question is off-topic or not relevant</value>
+                </item>
+                <item>
+                    <value type="str">Too subjective and argumentative</value>
+                </item>
+                <item>
+                    <value type="str">The question is answered, right answer was accepted</value>
+                </item>
+                <item>
+                    <value type="str">Problem is not reproducible or outdated</value>
+                </item>
+                <item>
+                    <value type="str">Other</value>
+                </item>
+            </value>
+        </value>
+    </setting>
+    <setting>
+        <key>CHECK_FOR_UPDATES</key>
+        <value>
+            <value type="bool">True</value>
+        </value>
+    </setting>
+    <setting>
+        <key>CUSTOM_HEAD</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>CUSTOM_CSS</key>
+        <value>
+            <value type="str" />
+        </value>
+    </setting>
+    <setting>
+        <key>NODE_MAN_FILTERS</key>
+        <value>
+            <value type="list" />
+        </value>
+    </setting>
+    <setting>
+        <key>START_WARN_VOTES_LEFT</key>
+        <value>
+            <value type="int">10</value>
+        </value>
+    </setting>
+    <setting>
+        <key>EXPORTER_BACKUP_STORAGE</key>
+        <value>
+            <value type="str">/opt/bitnami/apps/osqa/forum_modules/exporter/backups</value>
+        </value>
+    </setting>
+    <setting>
+        <key>QUESTIONS_SITEMAP_LIMIT</key>
+        <value>
+            <value type="int">2500</value>
+        </value>
+    </setting>
+    <setting>
+        <key>QUESTIONS_SITEMAP_CHANGEFREQ</key>
+        <value>
+            <value type="str">daily</value>
+        </value>
+    </setting>
+    <setting>
+        <key>ROBOTS_FILE</key>
+        <value>
+            <value type="str">Sitemap: http://192.168.1.6/osqa/sitemap.xml
+
+User-Agent: *
+Disallow: /accounts/
+Disallow: /users/
+Disallow: /revisions/
+Disallow: /search
+Disallow: /matching_tags
+Disallow: /*sort=
+
+            </value>
+        </value>
+    </setting>
+</settings>

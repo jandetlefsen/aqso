@@ -56203,3 +56203,25 @@ IOError: [Errno 13] Permission denied: u'/opt/bitnami/apps/osqa/forum/skins/defa
 		
 
         
+/opt/bitnami/apps/osqa/forum_modules/exporter/exporter.py TIME: 2013-01-12 19:55:16,511 MSG: exporter.py:export:305 Error executing xml backup: 
+ Traceback (most recent call last):
+  File "/opt/bitnami/apps/osqa/forum_modules/exporter/exporter.py", line 287, in export
+    dump_files.append(run(s['fn'], s['id']))
+  File "/opt/bitnami/apps/osqa/forum_modules/exporter/exporter.py", line 276, in run
+    write_to_file(root, tmp, fname)
+  File "/opt/bitnami/apps/osqa/forum_modules/exporter/exporter.py", line 140, in write_to_file
+    tree.write(os.path.join(tmp, filename), encoding='UTF-8')
+  File "/opt/bitnami/python/lib/python2.6/xml/etree/ElementTree.py", line 658, in write
+    file = open(file, "wb")
+IOError: [Errno 13] Permission denied: '/opt/bitnami/apps/osqa/forum_modules/exporter/tmp/tags.xml'
+
+/opt/bitnami/apps/osqa/forum_modules/exporter/exporter.py TIME: 2013-01-12 19:56:17,779 MSG: exporter.py:export:305 Error executing xml backup: 
+ Traceback (most recent call last):
+  File "/opt/bitnami/apps/osqa/forum_modules/exporter/exporter.py", line 292, in export
+    fname = create_targz(tmp, dump_files, start_time, options, user, state, set_state, options['file_format'])
+  File "/opt/bitnami/apps/osqa/forum_modules/exporter/exporter.py", line 176, in create_targz
+    export_upfiles(t)
+  File "/opt/bitnami/apps/osqa/forum_modules/exporter/exporter.py", line 220, in export_upfiles
+    tf.add(folder, arcname='/upfiles')
+AttributeError: ZipFile instance has no attribute 'add'
+

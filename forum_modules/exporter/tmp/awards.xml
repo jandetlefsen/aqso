@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<awards>
+    <award>
+        <badge>Autobiographer</badge>
+        <user>1</user>
+        <node />
+        <trigger>9</trigger>
+        <action>10</action>
+    </award>
+    <award>
+        <badge>Supporter</badge>
+        <user>1</user>
+        <node />
+        <trigger>17</trigger>
+        <action>18</action>
+    </award>
+    <award>
+        <badge>Student</badge>
+        <user>2</user>
+        <node />
+        <trigger>17</trigger>
+        <action>19</action>
+    </award>
+</awards>
