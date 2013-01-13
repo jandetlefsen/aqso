@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-13 00:01+0000\n"
+"POT-Creation-Date: 2013-01-13 00:43+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -868,7 +868,7 @@ msgid ""
 "Comma separated list of ips allowed to access the site while in maintenance"
 msgstr ""
 "Komma separiert Liste von IP Adressen die zugelassen sind die Seite im "
-"Wartungsmodus zu Erreichen."
+"Wartungsmodus zu erreichen."
 
 #: forum/forms/admin.py:37
 #: forum/skins/default/templates/users/karma_bonus.html:9
@@ -4700,6 +4700,8 @@ msgstr "mehr"
 msgid ""
 "Please select a reason bellow or use the text box to input your own reason."
 msgstr ""
+"Bitte wahle einen Grund aus warum Du dieses Posting melden willst oder geb "
+"einen eigenen Grund an."
 
 #: forum/skins/default/templates/node/vote_buttons.html:3
 #: forum/skins/default/templates_old/node/vote_buttons.html:3
@@ -5401,7 +5403,7 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/flagged_posts.html:8
 #: forum/skins/default/templates_old/osqaadmin/flagged_posts.html:8
 msgid "This are the posts that have been flagged by users."
-msgstr ""
+msgstr "Diese Postings wurden von Benutzern geflaggt"
 
 #: forum/skins/default/templates/osqaadmin/index.html:17
 #: forum/skins/default/templates_old/osqaadmin/index.html:17
@@ -5442,6 +5444,8 @@ msgid ""
 "Maintainance mode allows you to close your site for maintainance, allowing "
 "only a predetermined set of ip addresses to access it normally."
 msgstr ""
+"Wartunsmodus erlaubt Dir die Seite temporär zu schliessen und nur einer "
+"definierten Gruppe von IP Adressen den Zugang zu erlauben."
 
 #: forum/skins/default/templates/osqaadmin/maintenance.html:13
 #: forum/skins/default/templates_old/osqaadmin/maintenance.html:13
@@ -8225,31 +8229,31 @@ msgstr ""
 
 #: forum_modules/exporter/forms.py:11
 msgid "File format of the compressed backup"
-msgstr ""
+msgstr "Datei Format des komprimierten Backups"
 
 #: forum_modules/exporter/forms.py:12
 msgid "Anonymized data"
-msgstr ""
+msgstr "Daten Anonymisieren"
 
 #: forum_modules/exporter/forms.py:12
 msgid "Don't export user data and make all content anonymous"
-msgstr ""
+msgstr "Benutzerdaten nicht exportieren um alle Inhalte zu anonymisieren."
 
 #: forum_modules/exporter/forms.py:13
 msgid "Uploaded files"
-msgstr ""
+msgstr "Hochgeladene Dateien"
 
 #: forum_modules/exporter/forms.py:13
 msgid "Include uploaded files in the backup"
-msgstr ""
+msgstr "Hochgeladene Dateien diesem Backup hinzufügen"
 
 #: forum_modules/exporter/forms.py:14
 msgid "Skins folder"
-msgstr ""
+msgstr "Template Verzeichnis"
 
 #: forum_modules/exporter/forms.py:14
 msgid "Include skins folder in the backup"
-msgstr ""
+msgstr "Backup inklusive Template Verzeichnis"
 
 #: forum_modules/exporter/importer.py:264
 #, python-format
@@ -8312,15 +8316,15 @@ msgstr ""
 
 #: forum_modules/exporter/templates/exporter.html:14
 msgid "Available backups"
-msgstr ""
+msgstr "Verfügbare Backups"
 
 #: forum_modules/exporter/templates/exporter.html:25
 msgid "Start new backup"
-msgstr ""
+msgstr "Neues Backup starten"
 
 #: forum_modules/exporter/templates/exporter.html:32
 msgid "Start"
-msgstr ""
+msgstr "Anfangen"
 
 #: forum_modules/exporter/templates/importer.html:6
 #: forum_modules/exporter/templates/running.html:6
@@ -8600,7 +8604,7 @@ msgstr ""
 #: forum_modules/updates/base.py:175
 #, python-format
 msgid "%d update messages have been downloaded."
-msgstr ""
+msgstr "%d neue Nachrichten wurden runtergeladen."
 
 #: forum_modules/updates/settings.py:8
 msgid "Updater Settings"
