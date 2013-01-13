@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-12 23:53+0000\n"
+"POT-Creation-Date: 2013-01-13 00:01+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -861,22 +861,24 @@ msgstr ""
 
 #: forum/forms/admin.py:32
 msgid "Allow ips"
-msgstr ""
+msgstr "Erlaubte IPs"
 
 #: forum/forms/admin.py:33
 msgid ""
 "Comma separated list of ips allowed to access the site while in maintenance"
 msgstr ""
+"Komma separiert Liste von IP Adressen die zugelassen sind die Seite im "
+"Wartungsmodus zu Erreichen."
 
 #: forum/forms/admin.py:37
 #: forum/skins/default/templates/users/karma_bonus.html:9
 #: forum/skins/default/templates_old/users/karma_bonus.html:9
 msgid "Message"
-msgstr ""
+msgstr "Mitteilung"
 
 #: forum/forms/admin.py:38
 msgid "A message to display to your site visitors while in maintainance mode"
-msgstr ""
+msgstr "Eine Mitteilung die dem Besucher im Wartunsmodus angezeigt wird"
 
 #: forum/forms/admin.py:43
 msgid "Default"
@@ -2119,7 +2121,7 @@ msgstr "Sitemap Einstellungen"
 
 #: forum/settings/sitemaps.py:5
 msgid "Some settings connected with the Sitemaps."
-msgstr ""
+msgstr "Ein paar Einstellungen in Verbindung mit der Sitemap."
 
 #: forum/settings/sitemaps.py:8
 msgid "Questions Sitemap Limit"
@@ -2138,8 +2140,8 @@ msgid ""
 "Used in the Questions Sitemap <changefreq> tag and specifies the content "
 "change frequency."
 msgstr ""
-"Benutzt in der Fragen SItemap <changefreq> Tag und legt die Update "
-"Häufigkeit fest."
+"Benutzt im Fragen Sitemap <changefreq> Tag und legt die Update Häufigkeit "
+"fest."
 
 #: forum/settings/static.py:17
 msgid "Use custom CSS"
@@ -5464,7 +5466,7 @@ msgstr ""
 #: forum/skins/default/templates/osqaadmin/maintenance.html:23
 #: forum/skins/default/templates_old/osqaadmin/maintenance.html:23
 msgid "Close for maintenance"
-msgstr ""
+msgstr "Für Wartungsarbeiten schliessen"
 
 #: forum/skins/default/templates/osqaadmin/moderation.html:5
 #: forum/skins/default/templates/osqaadmin/moderation.html:6
@@ -8374,7 +8376,7 @@ msgstr ""
 
 #: forum_modules/exporter/templates/running.html:143
 msgid "Download file"
-msgstr ""
+msgstr "Download Datei"
 
 #: forum_modules/exporter/templates/running.html:148
 msgid "Total progress"
