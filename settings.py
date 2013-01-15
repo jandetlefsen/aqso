@@ -102,6 +102,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
+    # 'admin_bootstrap',
     'django.contrib.admin',
     'django.contrib.humanize',
     'django.contrib.sitemaps',

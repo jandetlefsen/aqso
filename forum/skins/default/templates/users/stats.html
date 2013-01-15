@@ -13,9 +13,9 @@
             {% spaceless %}
                 <h3>
                     {% blocktrans count questions.paginator.count as counter %}
-                    <span class="count">{{counter}}</span> Question
+                    <span class="count">{{counter}}</span> Frage
                     {% plural %}
-                    <span class="count">{{counter}}</span> Questions
+                    <span class="count">{{counter}}</span> Fragen
                     {% endblocktrans %}
                     <a class="feed-icon" style="background-image:url('{% media "media/images/feed-icon-small.png" %}');"
                         href="{{ view_user.get_asked_url }}?type=rss" title="{% trans "subscribe to question RSS feed" %}"></a>
@@ -39,9 +39,9 @@
                 {% spaceless %}
                     <h3>
                         {% blocktrans count answers.paginator.count as counter %}
-                        <span class="count">{{counter}}</span> Answer
+                        <span class="count">{{counter}}</span> Antwort
                         {% plural %}
-                        <span class="count">{{counter}}</span> Answers
+                        <span class="count">{{counter}}</span> Antworten
                         {% endblocktrans %}
                     </h3>
                 {% endspaceless %}
@@ -70,9 +70,9 @@
                 {% spaceless %}
                     <h3>
                         {% blocktrans count total_votes as cnt %}
-                            <span class="count">{{cnt}}</span> Vote
+                            <span class="count">{{cnt}}</span> Stimme
                         {% plural %}
-                            <span class="count">{{cnt}}</span> Votes
+                            <span class="count">{{cnt}}</span> Stimmen
                         {% endblocktrans %}
                     </h3>
                 {% endspaceless %}
@@ -121,9 +121,9 @@
             <div class="span9">
                 <h3>
                     {% blocktrans count total_awards as counter %}
-                    <span class="count">{{counter}}</span> Badge
+                    <span class="count">{{counter}}</span> Abzeichen
                     {% plural %}
-                    <span class="count">{{counter}}</span> Badges
+                    <span class="count">{{counter}}</span> Abzeichen
                     {% endblocktrans %}
                 </h3>
                 {% endspaceless %}

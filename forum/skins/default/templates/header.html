@@ -12,32 +12,33 @@
         <a class="brand" href="/">Freeduino</a>
         <div class="nav-collapse">
           <ul class="nav pull-right">
-
-            <li>
-              <a href="/osqa/admin">Administration</a>
-            </li>
+            {% if user.is_staff %}
+              <li>
+                <a href="/osqa/admin">Admin</a>
+              </li>
+            {% endif %}
 
             {% if user.is_authenticated %}  
                 <li>
-                  <a href="/osqa/benutzer/{{ user.id }}">Konto</a>
+                  <a href="/osqa/benutzer/{{ user.id }}">{% trans "Account" %}</a>
                 </li>
 
                 <li>
-                    <a href="/osqa/abmelden">Abmelden</a>
+                    <a href="/osqa/abmelden">{% trans "Log out" %}</a>
                 </li>
             {% else %}
                 <li>
-                    <a href="/osqa/konto/anmelden">Anmelden</a>
+                    <a href="/osqa/konto/anmelden">{% trans "Login" %}</a>
                 </li>
             {% endif %}
             
 
             <li>
-              <a href="/osqa/about">About</a>
+              <a href="/osqa/about">{% trans "About" %}</a>
             </li>
 
             <li>
-              <a href="/osqa/faq">FAQ</a>
+              <a href="/osqa/faq">{% trans "FAQ" %}</a>
             </li>
 
             <li class="divider-vertical"></li> 
